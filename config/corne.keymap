@@ -20,8 +20,8 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp TILDE    &kp BSPC
-   &kp LCTRL &kp A &kp R &kp S &mt LSHIFT T &kp G   &kp M &mt RSHIFT N  &kp E     &kp I   &kp O &kp SQT
+   &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &kp BSPC
+   &kp LCTRL &kp A &kp R &kp S &mt LSHIFT T &kp G   &kp M &mt RSHIFT N  &kp E     &kp I   &kp O &kp TILDE
    &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
                   &kp LGUI &mo 1 &kp RET   &kp SPACE &mo 2 &kp LALT
                         >;
@@ -34,10 +34,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                                    &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+   &kp TAB    &trans       &kp UP       &trans       &trans       &trans         &trans   &kp N7   &kp N8 &kp N9    &trans &kp BSPC
+   &bt BT_CLR &kp LEFT   &kp DOWN   &kp RIGHT &trans    &trans    &trans &kp N4 &kp N5 &kp N6 &trans &trans
+   &kp LSHFT  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &trans   &kp N1   &kp N2 &kp N3    &trans &trans
+                                    &kp LGUI     &trans       &kp RET      &kp SPACE  &kp N0   &kp LALT
                         >;
                 };
 
