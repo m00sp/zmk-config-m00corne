@@ -13,26 +13,26 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-                        display-name = "Default Layer";
+                        display-name = "BASE";
 // -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
-// | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
+// |  TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  I  |  '  | BSPC |
+// | CTRL |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  ~   |
+// | SHFT |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  | ;  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &kp BSPC
    &kp LCTRL &mt LGUI A &mt LALT R &mt LCTRL S &mt LSHIFT T &kp G   &kp M &mt RSHIFT N  &mt LCTRL E     &mt LALT I   &mt LGUI O &kp TILDE
-   &kp ESC &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp LGUI &lt 1 TAB &kp RET   &kp SPACE &lt 2 BSPC &mt LALT DEL
+   &kp ESC &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp SEMI
+                  &kp LGUI &lt 1 TAB &kp SPACE   &kp RET &lt 2 BSPC &mt LALT DEL
                         >;
                 };
                 lower_layer {
-                        display-name = "Lower Layer";
+                        display-name = "NAV - NUM";
 // -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+// |  TAB |     | UP  |     |     |     |   |     |  7  |  8  |  9  |     | BSPC |
+// | BTCLR| LFT | DWN | RGT |     |     |   |     |  4  |  5  |  6  |     |      |
+// | SHFT | BT1 | BT2 | BT3 | BT4 | BT5 |   |     |  1  |  2  |  3  |     |      |
+//                    | GUI |     | SPC |   | ENT |  0  | ALT |
                         bindings = <
    &kp TAB    &trans       &kp UP       &trans       &trans       &trans         &trans   &kp N7   &kp N8 &kp N9    &trans &kp BSPC
    &bt BT_CLR &kp LEFT   &kp DOWN   &kp RIGHT &trans    &trans    &trans &kp N4 &kp N5 &kp N6 &trans &trans
@@ -42,7 +42,7 @@
                 };
 
                 raise_layer {
-                        display-name = "Raise Layer";
+                        display-name = "SYMBOLS";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
