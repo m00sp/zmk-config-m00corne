@@ -2,14 +2,12 @@
 
 This repository contains the configuration files for a 42-key Corne keyboard with a Colemak-dh layout. Inspired by [Miryoku](https://github.com/manna-harbour/miryoku/) but with my own modifications, implemented with [ZMK-Firmware](https://zmkfirmware.dev/).
 
-Here is a simple flow chart:
+Here is the layers flow chart:
 
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+flowchart TD
+    BASE --> NAV - NUM --> SYMBOLS --> MOUSE --> MEDIA
+
 ```
 
 
