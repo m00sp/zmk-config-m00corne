@@ -23,10 +23,10 @@
 // | SHFT |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  | ;  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &bootloader   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &kp DEL
+   &kp LBRC   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &kp LBKT
    &caps_word &mt LGUI A &mt LALT R &mt LCTRL S &mt LSHIFT T &kp G   &kp M &mt RSHIFT N  &mt LCTRL E     &mt LALT I   &mt LGUI O &kp TILDE
-   &sys_reset &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp SEMI
-                  &kp ESC &lt 1 TAB &lt 3 SPACE   &kp RET &lt 2 BSPC &mt LALT DEL
+   &kp GRAVE &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp SEMI
+                  &kp ESC &lt 1 TAB &lt 3 SPACE   &lt 4 RET &lt 2 BSPC &mt LALT DEL
                         >;
                 };
                 lower_layer {
@@ -69,6 +69,20 @@
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
    &kp LCTRL &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_UP &mmv MOVE_RIGHT   &trans      &kp MINUS &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_UP &mmv MOVE_RIGHT &kp GRAVE
    &kp LSHFT &msc SCRL_LEFT &msc SCRL_DOWN  &msc SCRL_UP &msc SCRL_RIGHT   &trans      &kp UNDER &msc SCRL_LEFT &msc SCRL_DOWN  &msc SCRL_UP &msc SCRL_RIGHT &kp TILDE
+                             &mkp LCLK   &mkp MCLK    &mkp RCLK   &mkp LCLK   &mkp MCLK    &mkp RCLK
+                        >;
+                };
+                function_layer {
+                        display-name = "FUNCTION - MEDIA";
+// -----------------------------------------------------------------------------------------
+// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+   &bootloader  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
+   &kp LCTRL &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_UP &mmv MOVE_RIGHT   &trans      &kp MINUS &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_UP &mmv MOVE_RIGHT &kp GRAVE
+   &sys_reset &msc SCRL_LEFT &msc SCRL_DOWN  &msc SCRL_UP &msc SCRL_RIGHT   &trans      &kp UNDER &msc SCRL_LEFT &msc SCRL_DOWN  &msc SCRL_UP &msc SCRL_RIGHT &kp TILDE
                              &mkp LCLK   &mkp MCLK    &mkp RCLK   &mkp LCLK   &mkp MCLK    &mkp RCLK
                         >;
                 };
