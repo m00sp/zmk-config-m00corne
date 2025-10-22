@@ -6,7 +6,7 @@ Here is the layers flow chart:
 
 ```mermaid
 flowchart TD
-    BASE --> NAV - NUM --> SYMBOLS --> MOUSE --> MEDIA
+    BASE --> NAV-NUM --> SYMBOLS --> MOUSE --> MEDIA
 
 ```
 
