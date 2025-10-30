@@ -24,7 +24,7 @@
 //                    | ESC | TAB | SPC |   | ENT | BSPC | DEL |
                         bindings = <
    &kp LBRC   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &kp LBKT
-   &caps_word &mt LGUI A &mt LALT R &mt LCTRL S &mt LSHIFT T &kp G   &kp M &mt RSHIFT N  &mt LCTRL E     &mt LALT I   &mt LGUI O &kp SEMI
+   &caps_word &mt LGUI A &mt LALT R &mt LCTRL S &mt LSHIFT T &kp G   &kp M &mt RSHIFT N  &mt RCTRL E     &mt RALT I   &mt RGUI O &kp SEMI
    &kp GRAVE &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp TILDE
                   &kp ESC &lt 1 TAB &lt 3 SPACE   &lt 4 RET &lt 2 BSPC &mt LALT DEL
                         >;
@@ -38,7 +38,7 @@
 //                     | ESC | TAB | SPC |   | ENT |  0  | DEL |
                         bindings = <
    &trans    &trans    &kp UP    &trans    &kp HOME    &kp PAGE_UP    &trans   &kp N7   &kp N8 &kp N9    &trans &kp BSPC
-   &trans &mt LGUI LEFT   &mt LALT DOWN   &mt LCTRL RIGHT &mt LSHIFT END   &kp PAGE_DOWN    &trans &mt RSHIFT N4 &mt LCTRL N5 &mt LALT N6 &trans &trans
+   &trans &mt LGUI LEFT   &mt LALT DOWN   &mt LCTRL RIGHT &mt LSHIFT END   &kp PAGE_DOWN    &trans &mt RSHIFT N4 &mt RCTRL N5 &mt RALT N6 &trans &trans
    &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &trans   &kp N1   &kp N2 &kp N3    &trans &trans
                                     &trans     &trans       &trans      &trans  &kp N0   &trans
                         >;
@@ -53,7 +53,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp  SLASH  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &kp QUESTION   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
+   &kp LCTRL &kp QUESTION   &FSLH &COLON   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
    &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
