@@ -17,7 +17,7 @@
 
 
                 default_layer {
-                        display-name = "COLE-DH";
+                        display-name = "COLEMAK-DH";
 // -----------------------------------------------------------------------------------------
 // |   `  |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ~  |  ´  |
 // | Caps |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  Ç  |
