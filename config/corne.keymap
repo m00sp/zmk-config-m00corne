@@ -26,7 +26,7 @@
                         bindings = <
    &kp GRAVE   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &kp LBKT
    &caps_word &mt LGUI A &mt LALT R &mt LCTRL S &mt LSHIFT T &kp G   &kp M &mt RSHIFT N  &mt RCTRL E     &mt RALT I   &mt RGUI O &kp SEMI
-   &kp NUBS &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp QMARK
+   &kp NUBS &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp PIPE2
                   &kp ESC &lt 1 SPACE &lt 3 TAB   &lt 4 RET &lt 2 BSPC &mt LALT DEL
                         >;
                 };
@@ -71,8 +71,8 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp  SLASH  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &kp QMARK   &kp DQT &kp APOS   &trans   &trans      &kp MINUS &kp EQUAL &kp LT  &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp GT  &kp RBRC &kp PIPE &kp TILDE2
+   &kp LCTRL &kp QMARK   &kp DQT &kp APOS   &SEMICOLON   &trans      &kp MINUS &kp EQUAL &kp LT  &kp RBKT &kp BSLH &kp GRAVE
+   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp GT  &kp RBRC &kp PIPE &kp NUBS
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
