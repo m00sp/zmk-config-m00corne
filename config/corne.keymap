@@ -12,12 +12,20 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+        behaviors {
+                td1: tap_dance_mod_tap {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPSLOCK>;
+        };
+    };
         keymap {
                 compatible = "zmk,keymap";
 
 
                 default_layer {
-                        display-name = "COL-DHm";
+                        display-name = "m00corne";
 // -----------------------------------------------------------------------------------------
 // |   `  |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ~  |  ´  |
 // | Caps |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  Ç  |
@@ -25,7 +33,7 @@
 //                    | ESC | TAB | SPC |   | ENT | BSPC | DEL |
                         bindings = <
    &kp GRAVE   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &kp LBKT
-   &caps_word &mt LGUI A &mt LALT R &mt LCTRL S &mt LSHIFT T &kp G   &kp M &mt RSHIFT N  &mt RCTRL E     &mt RALT I   &mt RGUI O &kp SEMI
+   &td1 &mt LGUI A &mt LALT R &mt LCTRL S &mt LSHIFT T &kp G   &kp M &mt RSHIFT N  &mt RCTRL E     &mt RALT I   &mt RGUI O &kp SEMI
    &kp NUBS &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp RA(Q)
                   &kp ESC &lt 1 SPACE &lt 3 TAB   &lt 4 RET &lt 2 BSPC &mt LALT DEL
                         >;
