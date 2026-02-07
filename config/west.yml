@@ -17,6 +17,7 @@ manifest:
       revision: main
     - name: zmk-locales
       remote: joelspadin
+      revision: main
     - name: zmk-helpers
       remote: urob
       revision: main
