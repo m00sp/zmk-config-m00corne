@@ -11,7 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <behaviors/unicode.dtsi>
+/*#include <behaviors/unicode.dtsi>*/
 
 / {
         behaviors {
@@ -21,13 +21,6 @@
                 tapping-term-ms = <200>;
                 bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPSLOCK>;
          		};
-
-            td2: tap_dance_mod_tap {
-                compatible = "zmk,behavior-tap-dance";
-                #binding-cells = <0>;
-                tapping-term-ms = <200>;
-                bindings = <&kp PT_FSLH >, <&kp PT_QMARK>;
-            };
 
         };
         keymap {
@@ -44,7 +37,7 @@
                         bindings = <
    &kp GRAVE   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &kp LBKT
    &td1 &mt LGUI A &mt LALT R &mt LCTRL S &mt LSHIFT T &kp G   &kp M &mt RSHIFT N  &mt RCTRL E     &mt RALT I   &mt RGUI O &kp SEMI
-   &kp NUBS &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &td2
+   &kp NUBS &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp PT_FLSH
                   &kp ESC &lt 1 SPACE &lt 3 TAB   &lt 4 RET &lt 2 BSPC &mt LALT DEL
                         >;
                 };
