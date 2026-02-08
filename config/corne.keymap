@@ -26,7 +26,7 @@
                     compatible = "zmk,behavior-tap-dance";
                     #binding-cells = <0>;
                     tapping-term-ms = <200>;
-                    bindings = <&kp PT_FSLH >, <&kp PT_QMARK>, <&kp ES_IQMARK>;
+                    bindings = <&kp PT_FSLH >, <&kp PT_QMARK>, <&kp ES_INVERTED_QUESTION>;
         };
     };
         keymap {
