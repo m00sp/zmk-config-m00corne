@@ -21,8 +21,5 @@ manifest:
     - name: zmk-helpers
       remote: urob
       revision: main
-    - name: zmk-unicode
-      remote: urob
-      revision: main
   self:
     path: config
