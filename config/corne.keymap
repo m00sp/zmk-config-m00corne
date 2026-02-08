@@ -16,18 +16,17 @@
 / {
         behaviors {
                 td1: tap_dance_mod_tap {
-                compatible = "zmk,behavior-tap-dance";
-                #binding-cells = <0>;
-                tapping-term-ms = <200>;
-                bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPSLOCK>;
+                    compatible = "zmk,behavior-tap-dance";
+                    #binding-cells = <0>;
+                    tapping-term-ms = <200>;
+                    bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPSLOCK>;
         };
 
-        behaviors {
-                td2: tap_dance_mod_tap {
-                compatible = "zmk,behavior-tap-dance";
-                #binding-cells = <0>;
-                tapping-term-ms = <200>;
-                bindings = <&kp PT_FSLH >, <&kp PT_QMARK>, <&kp ES_IQMARK>;
+                td2: tap_dance_mod_tap2 {
+                    compatible = "zmk,behavior-tap-dance";
+                    #binding-cells = <0>;
+                    tapping-term-ms = <200>;
+                    bindings = <&kp PT_FSLH >, <&kp PT_QMARK>, <&kp ES_IQMARK>;
         };
     };
         keymap {
