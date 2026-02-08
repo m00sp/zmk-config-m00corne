@@ -20,13 +20,13 @@
                 #binding-cells = <0>;
                 tapping-term-ms = <200>;
                 bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPSLOCK>;
-        		};
+          		};
 
             td2: tap_dance_mod_tap {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
                 tapping-term-ms = <200>;
-                bindings = <&kp PT_FSLH >, <&kp PT_QMARK>, <&uc 0xA01F 0>;
+                bindings = <&kp PT_FSLH >, <&kp PT_QMARK>, <&uc 0x1F596 0>;
             keys_es_latin_american.h
         };
 
