@@ -26,7 +26,7 @@
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
                 tapping-term-ms = <200>;
-                bindings = <&kp PT_FSLH >, <&kp PT_QMARK>, <&uc 0x1F596 0>;
+                bindings = <&kp PT_FSLH >, <&kp PT_QMARK>;
             keys_es_latin_american.h
         };
 
