@@ -7,7 +7,6 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 #include <locale/keys_pt_abnt2.h>
-#include <locale/keys_es_latin_american.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -43,7 +42,7 @@
                         bindings = <
    &kp GRAVE   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &kp LBKT
    &td1 &mt LGUI A &mt LALT R &mt LCTRL S &mt LSHIFT T &kp G   &kp M &mt RSHIFT N  &mt RCTRL E     &mt RALT I   &mt RGUI O &kp SEMI
-   &kp NUBS &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &td2
+   &kp NUBS &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp PT_FSLH
                   &kp ESC &lt 1 SPACE &lt 3 TAB   &lt 4 RET &lt 2 BSPC &mt LALT DEL
                         >;
                 };
