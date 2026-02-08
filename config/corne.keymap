@@ -20,17 +20,16 @@
                 #binding-cells = <0>;
                 tapping-term-ms = <200>;
                 bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPSLOCK>;
-          		};
+         		};
 
             td2: tap_dance_mod_tap {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
                 tapping-term-ms = <200>;
                 bindings = <&kp PT_FSLH >, <&kp PT_QMARK>;
-            keys_es_latin_american.h
-        };
+            };
 
-    };
+        };
         keymap {
                 compatible = "zmk,keymap";
 
