@@ -7,7 +7,7 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 #include <locale/keys_pt_abnt2.h>
-#include <locale/keys_es_latin_american.h>
+#include <behaviors/unicode.dtsi>
 #include <dt-bindings/zmk/pointing.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -15,18 +15,19 @@
 
 / {
         behaviors {
-                td1: tap_dance_mod_tap {
-                    compatible = "zmk,behavior-tap-dance";
-                    #binding-cells = <0>;
-                    tapping-term-ms = <200>;
-                    bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPSLOCK>;
-        };
+            td1: tap_dance_mod_tap {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPSLOCK>;
+        		};
 
-                td2: tap_dance_mod_tap2 {
-                    compatible = "zmk,behavior-tap-dance";
-                    #binding-cells = <0>;
-                    tapping-term-ms = <200>;
-                    bindings = <&kp PT_FSLH >, <&kp PT_QMARK>, <&kp ES_INVERTED_QUESTION>;
+            td2: tap_dance_mod_tap {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&kp PT_FSLH >, <&kp PT_QMARK>, <&uc 0xA01F 0>;
+            keys_es_latin_american.h
         };
     };
         keymap {
