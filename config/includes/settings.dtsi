@@ -1,0 +1,13 @@
+// Make sure this file is included before all other files except definitions.dtsi
+
+/*
+ * Unicode settings
+ */
+
+&uc {
+  default-mode = <UC_MODE_LINUX>;  // Default to Linux input system
+  minimum-length = <0>;            // Set to desired minimum input length
+  linux-key = <LC(LS(U))>;         // Overwrite Linux compose key
+  win-compose-key = <RALT>;        // Overwrite WinCompose compose key
+};
+
