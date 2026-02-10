@@ -1,5 +1,5 @@
 // Personal headers
-#include "includes/definitions.dtsi"
+#include "definitions.dtsi"
 // ZMK headers
 #include <dt-bindings/zmk/pointing.h>
 #include <behaviors.dtsi>
@@ -12,5 +12,5 @@
 #include "zmk-helpers/key-labels/42.h"
 //Personal includes
 // Other personal header
-#include "includes/behaviours.dtsi"
+#include "behaviours.dtsi"
 
