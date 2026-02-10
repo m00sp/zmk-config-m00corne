@@ -14,6 +14,8 @@
 #include <behaviors/unicode.dtsi>
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/key-labels/42.h"
+//Personal includes
+#include "includes/behaviours.dtsi"
 
 &uc {
   default-mode = <UC_MODE_LINUX>;  // Default to Linux input system
@@ -23,21 +25,6 @@
 };
 
 / {
-        behaviors {
-                td1: tap_dance_mod_tap {
-                    compatible = "zmk,behavior-tap-dance";
-                    #binding-cells = <0>;
-                    tapping-term-ms = <200>;
-                    bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPSLOCK>;
-                };
-
-                td2: tap_dance_mod_tap2 {
-                    compatible = "zmk,behavior-tap-dance";
-                    #binding-cells = <0>;
-                    tapping-term-ms = <200>;
-                    bindings = <&kp PT_FSLH >, <&uc 0xBF 0>;
-                };
-        };
 
         keymap {
                 compatible = "zmk,keymap";
