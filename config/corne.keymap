@@ -13,6 +13,13 @@
 #include <dt-bindings/zmk/bt.h>
 #include <behaviors/unicode.dtsi>
 
+&uc {
+  default-mode = <UC_MODE_LINUX>;  // Default to Linux input system
+  minimum-length = <0>;            // Set to desired minimum input length
+  linux-key = <LC(LS(U))>;         // Overwrite Linux compose key
+  win-compose-key = <RALT>;        // Overwrite WinCompose compose key
+};
+
 / {
         behaviors {
                 td1: tap_dance_mod_tap {
@@ -20,23 +27,16 @@
                     #binding-cells = <0>;
                     tapping-term-ms = <200>;
                     bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPSLOCK>;
-        };
+                };
 
                 td2: tap_dance_mod_tap2 {
                     compatible = "zmk,behavior-tap-dance";
                     #binding-cells = <0>;
                     tapping-term-ms = <200>;
-                    bindings = <&kp PT_FSLH >, <&uc 0x1F596 0>;
+                    bindings = <&kp PT_FSLH >, <&uc 0xBF 0>;
+                };
         };
-    };
-/*
-&uc {
-  default-mode = <UC_MODE_LINUX>;  // Default to Linux input system
-  minimum-length = <0>;            // Set to desired minimum input length
-  linux-key = <LC(LS(U))>;         // Overwrite Linux compose key
-  win-compose-key = <RALT>;        // Overwrite WinCompose compose key
-};
-*/
+
         keymap {
                 compatible = "zmk,keymap";
 
