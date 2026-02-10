@@ -5,7 +5,6 @@
  */
 // Personal headers
 #include "includes/definitions.dtsi"
-#include "includes/behaviours.dtsi"
 // ZMK headers
 #include <dt-bindings/zmk/pointing.h>
 #include <behaviors.dtsi>
@@ -16,6 +15,8 @@
 #include <behaviors/unicode.dtsi>
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/key-labels/42.h"
+// Other personal header
+#include "includes/behaviours.dtsi"
 
 &uc {
   default-mode = <UC_MODE_LINUX>;  // Default to Linux input system
