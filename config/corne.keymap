@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-#include <includes/definitions.dtsi>
+#include "includes/definitions.dtsi"
 #include <locale/keys_pt_abnt2.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <behaviors.dtsi>
