@@ -19,3 +19,5 @@
 // Other personal headers
 #include "behaviours.dtsi"
 #include "settings.dtsi"
+#include "combos.dtsi"
+#include "macros.dtsi"
