@@ -29,7 +29,7 @@ manifest:
     - name: zmk-auto-layer
       remote: urob
       revision: main
-    - name: nice-view-oled
+    - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
   self:
