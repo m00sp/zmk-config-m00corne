@@ -1,6 +1,10 @@
 // Make sure this file is included before all other files except definitions.dtsi
 
 /*
+ * 		Use this file to overide that need to be sourced outside the root node
+ */
+
+/*
  * Unicode settings
  */
 

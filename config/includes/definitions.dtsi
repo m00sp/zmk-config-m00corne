@@ -1,4 +1,7 @@
 // Make sure this file is include before all other files
+/*
+ *		Use this file to add all the definitions that need to be sourced before all the headers
+ */
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10

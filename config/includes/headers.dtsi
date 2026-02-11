@@ -1,3 +1,8 @@
+//	Make sure this file is included to load all the headers
+/*
+ * 		This file contains all the headers. Use it to add all the necessary headers
+ */
+ 
 // Personal headers
 #include "definitions.dtsi"
 // ZMK headers

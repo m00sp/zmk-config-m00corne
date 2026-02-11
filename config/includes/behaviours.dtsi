@@ -1,3 +1,11 @@
+//	Make sure settings.dtsi is sourced before this file
+
+/*
+ * 	 Use this file to add all your behaviors
+ */
+
+
+
 / {
         behaviors {
                 td1: tap_dance_mod_tap {
