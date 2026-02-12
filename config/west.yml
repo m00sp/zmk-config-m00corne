@@ -29,7 +29,7 @@ manifest:
     - name: zmk-auto-layer
       remote: urob
       revision: main
-    - name: zmk-view-gem
+    - name: nice-view-gem
       remote: m165437
       revision: main
   self:
