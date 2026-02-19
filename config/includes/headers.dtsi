@@ -15,6 +15,7 @@
 #include <behaviors/unicode.dtsi>
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/key-labels/42.h"
+#include <behaviors/num_word.dtsi>
 //Personal includes
 // Other personal headers
 #include "behaviours.dtsi"
