@@ -21,7 +21,7 @@
                     tapping-term-ms = <200>;
                     bindings = <&kp PT_FSLH >, <&uc 0xBF 0>;
                 };
-        td_mt: tap_dance_mod_tap {
+        td_mt: tap_dance_mod_tap3 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
