@@ -68,7 +68,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp  PT_SQT &kp PT_EXCL &kp PT_AT &kp PT_HASH &kp PT_DLLR &kp PT_PRCNT   &kp PT_UMLAUT &kp PT_AMPS  &kp PT_ASTRK &kp PT_LPAR &kp PT_RPAR &kp BSPC
-   &kp LCTRL &num_word 1 &kp DQT &kp APOS   &kp SEMICOLON   &kp LANG1      &kp MINUS &kp EQUAL &kp LT  &kp PT_LBKT &kp PT_RBKT &kp GRAVE
+   &kp LCTRL &num_word &kp DQT &kp APOS   &kp SEMICOLON   &kp LANG1      &kp MINUS &kp EQUAL &kp LT  &kp PT_LBKT &kp PT_RBKT &kp GRAVE
    &kp LANG2 &kp LANG3   &kp LANG4 &kp LANG5   &kp LANG6   &kp LANG7      &kp UNDER &kp PLUS  &kp GT  &kp PT_LBRC &kp PT_RBRC &kp RA(W)
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
