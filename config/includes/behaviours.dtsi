@@ -21,12 +21,12 @@
                     tapping-term-ms = <200>;
                     bindings = <&kp PT_FSLH >, <&uc 0xBF 0>;
                 };
-                  //td3: tap_dance_mod_tap3 {
-                      //compatible = "zmk,behavior-tap-dance";
-                      //#binding-cells = <0>;
-                      //tapping-term-ms = <200>;
-                      //bindings = <&lt 1 SPACE>, <&kp a>;
-                  //};
+                td3: tap_dance_mod_tap3 {
+                  compatible = "zmk,behavior-tap-dance";
+                  #binding-cells = <0>;
+                  tapping-term-ms = <200>;
+                  bindings = <&lt 1 SPACE>, <&tog 1>;
+                };
 
         // Positional Homerow mods
         // Homerow mods that prevent accidental activations when rolling keys,
