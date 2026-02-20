@@ -134,7 +134,7 @@
         num_word: num_word {
             compatible = "zmk,behavior-auto-layer";
             #binding-cells = <1>;
-            layers = <1>; // Replace NUM by index of numbers layer
+            layers = 1; // Replace NUM by index of numbers layer
             continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
             ignore-numbers;
 				};
