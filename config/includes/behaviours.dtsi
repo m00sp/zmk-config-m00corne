@@ -24,8 +24,8 @@
                 td3: tap_dance_mod_tap3 {
                   compatible = "zmk,behavior-tap-dance";
                   #binding-cells = <0>;
-                  tapping-term-ms = <200>;
-                  bindings = <&lt 1 SPACE>, <&tog 1>;
+                  tapping-term-ms = <150>;
+                  bindings = <&lt 1 SPACE>, <&num_word>;
                 };
 
         // Positional Homerow mods
