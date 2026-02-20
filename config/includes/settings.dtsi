@@ -15,3 +15,12 @@
   win-compose-key = <RALT>;        // Overwrite WinCompose compose key
 };
 
+    &num_word {
+        layers = <1>;
+        continue-list = <
+            BACKSPACE DELETE DOT COMMA
+            SLASH ASTERISK PLUS MINUS EQUAL DOLLAR
+            RS(SPACE)
+        >;
+        ignore-modifiers;  // modifiers don't deactivate the layer
+    };
