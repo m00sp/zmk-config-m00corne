@@ -16,7 +16,7 @@
 };
 
     &num_word {
-//        layers = <1>;
+        layers = <NUM_WORD>;
         continue-list = <
             BACKSPACE DELETE DOT COMMA
             SLASH ASTERISK PLUS MINUS EQUAL DOLLAR
