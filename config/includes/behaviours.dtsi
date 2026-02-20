@@ -136,7 +136,6 @@
             #binding-cells = <0>;
             layers = <1>; // Replace NUM by index of numbers layer
             continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
-            ignore-numbers;
 				};
         };
 };
