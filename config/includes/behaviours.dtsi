@@ -131,11 +131,22 @@
             ///continue-list = <LEFT DOWN UP RIGHT PG_DN PG_UP>;
             ///ignore-modifiers;
         ///};
-        num_word: num_word {
+        nav_word: nav_word {
             compatible = "zmk,behavior-caps-word";
             #binding-cells = <0>;
-            layers = <1>; // Replace NUM by index of numbers layer
-            continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
-				};
+            layers = <1>;
+            continue-list = <
+                    LEFT DOWN UP RIGHT
+                    PG_UP PG_DN
+                    MY_UNDO MY_CUT MY_COPY MY_PASTE
+            >;
+            ignore-modifiers;  // modifiers don't deactivate the layer
+        };
+//        num_word: num_word {
+//            compatible = "zmk,behavior-caps-word";
+//            #binding-cells = <0>;
+//            layers = <1>; // Replace NUM by index of numbers layer
+//            continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
+//				};
         };
 };
