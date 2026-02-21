@@ -6,6 +6,7 @@
 // Personal headers
 #include "definitions.dtsi"
 // ZMK headers
+#include <behaviors/num_word.dtsi>
 #include <dt-bindings/zmk/pointing.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
