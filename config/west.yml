@@ -32,5 +32,8 @@ manifest:
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
+    - name: zmk-adaptive-key
+      remote: urob
+      revision: v0.3 # Should match ZMK release.
   self:
     path: config

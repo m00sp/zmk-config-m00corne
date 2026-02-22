@@ -13,7 +13,7 @@
 #include <locale/keys_pt_abnt2.h> // Joel locales for portuguese
 #include <behaviors/num_word.dtsi> // Urob autolayer
 #include <behaviors/unicode.dtsi> // Urob unicode
-//#include "zmk-helpers/helper.h" // Urob helper macros
+#include "zmk-helpers/helper.h" // Urob helper macros
 #include "zmk-helpers/key-labels/42.h" // Urob key label module
 //Personal includes
 // Other personal headers
