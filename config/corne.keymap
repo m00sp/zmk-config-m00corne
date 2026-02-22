@@ -22,7 +22,7 @@
 //                    | ESC | TAB | SPC |   | ENT | BSPC | DEL |
                         bindings = <
    &kp PT_SQT &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp PT_TILDE    &kp PT_ACUTE
-   &td1 &hm_l LGUI A &hm_l LALT R &hm_l LCTRL S &hm_shift_l LSHIFT T &kp G   &kp M &mt RSHIFT N  &hm_r RCTRL E     &hm_r RALT I   &hm_r RGUI O &kp PT_C_CEDILLA
+   &magic_shift	&hm_l LGUI A &hm_l LALT R &hm_l LCTRL S &hm_shift_l LSHIFT T &kp G   &kp M &hm_shift_r RSHIFT N  &hm_r RCTRL E     &hm_r RALT I   &hm_r RGUI O &kp PT_C_CEDILLA
    &kp NUBS &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp PT_SEMI &td2
                   &kp ESC &lt 1 TAB &lt 3 SPACE   &lt 4 RET &lt 2 BSPC &mt LALT DEL
                         >;
