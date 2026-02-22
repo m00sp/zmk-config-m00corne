@@ -8,20 +8,43 @@
 
 / {
         behaviors {
+                /*
+                * Tap dancing shift
+                *
+                * Usage: &td1
+                * Hold: Shift
+								*	Tap: Sticky Shift
+                * Double Tap: Caps Word
+                * Triple Tap: Caps Lock
+                */
                 td1: tap_dance_mod_tap {
                     compatible = "zmk,behavior-tap-dance";
                     #binding-cells = <0>;
                     tapping-term-ms = <200>;
                     bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPSLOCK>;
                 };
-
+                /*
+                * Tap dancing for '¿'
+                *
+                * Usage: &td2
+								*	Tap: /
+                * Double Tap: ¿
+                */
                 td2: tap_dance_mod_tap2 {
                     compatible = "zmk,behavior-tap-dance";
                     #binding-cells = <0>;
                     tapping-term-ms = <200>;
                     bindings = <&kp PT_FSLH >, <&uc 0xBF 0>;
                 };
-                td3: tap_dance_mod_tap3 {
+                /*
+                * Tap dancing num	word
+                *
+                * Usage: &td3
+                * Hold: Layer	1
+								*	Tap: Space
+                * Double Tap: num_word autolayer
+                */
+                 td3: tap_dance_mod_tap3 {
                   compatible = "zmk,behavior-tap-dance";
                   #binding-cells = <0>;
                   tapping-term-ms = <150>;
@@ -125,24 +148,5 @@
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap";
         };
-        ///nav_word: nav_word {
-            ///compatible = "zmk,behavior-auto-layer";
-            ///#binding-cells = <1>;
-            ///continue-list = <LEFT DOWN UP RIGHT PG_DN PG_UP>;
-            ///ignore-modifiers;
-        ///};
-  //      nav_word: nav_word {
-           // compatible = "zmk,behavior-caps-word";
-    //        #binding-cells = <0>;
-      //      layers = <1>;
-        //    continue-list = <LEFT DOWN UP RIGHT PG_UP PG_DN>;
-        //    ignore-modifiers;  // modifiers don't deactivate the layer
-      //  };
-//        num_word: num_word {
-//            compatible = "zmk,behavior-caps-word";
-//            #binding-cells = <0>;
-//            layers = <1>; // Replace NUM by index of numbers layer
-//            continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
-//				};
         };
 };
