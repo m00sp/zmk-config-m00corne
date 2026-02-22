@@ -8,20 +8,43 @@
 
 / {
         behaviors {
+                /*
+                * Tap dancing shift
+                *
+                * Usage: &td1
+                * Hold: Shift
+								*	Tap: Sticky Shift
+                * Double Tap: Caps Word
+                * Triple Tap: Caps Lock
+                */
                 td1: tap_dance_mod_tap {
                     compatible = "zmk,behavior-tap-dance";
                     #binding-cells = <0>;
                     tapping-term-ms = <200>;
                     bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPSLOCK>;
                 };
-
+                /*
+                * Tap dancing for '¿'
+                *
+                * Usage: &td2
+								*	Tap: /
+                * Double Tap: ¿
+                */
                 td2: tap_dance_mod_tap2 {
                     compatible = "zmk,behavior-tap-dance";
                     #binding-cells = <0>;
                     tapping-term-ms = <200>;
                     bindings = <&kp PT_FSLH >, <&uc 0xBF 0>;
                 };
-                td3: tap_dance_mod_tap3 {
+                /*
+                * Tap dancing num	word
+                *
+                * Usage: &td3
+                * Hold: Layer	1
+								*	Tap: Space
+                * Double Tap: num_word autolayer
+                */
+                 td3: tap_dance_mod_tap3 {
                   compatible = "zmk,behavior-tap-dance";
                   #binding-cells = <0>;
                   tapping-term-ms = <150>;
