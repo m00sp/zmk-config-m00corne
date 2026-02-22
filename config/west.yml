@@ -19,18 +19,18 @@ manifest:
       revision: v0.3.0
     - name: zmk-locales
       remote: joelspadin
-      revision: main
+      revision: v0.3.0
     - name: zmk-helpers
       remote: urob
-      revision: main
+      revision: v0.3.0
     - name: zmk-unicode
       remote: urob
-      revision: main
+      revision: v0.3.0
     - name: zmk-auto-layer
       remote: urob
       revision: v0.3.0
     - name: zmk-nice-oled
       remote: mctechnology17
-      revision: main
+      revision: v0.3.0
   self:
     path: config
