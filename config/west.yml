@@ -19,7 +19,7 @@ manifest:
       revision: v0.3.0
     - name: zmk-locales
       remote: joelspadin
-      revision: v0.3.0
+      revision: main
     - name: zmk-helpers
       remote: urob
       revision: v0.3.0
@@ -31,6 +31,6 @@ manifest:
       revision: v0.3.0
     - name: zmk-nice-oled
       remote: mctechnology17
-      revision: v0.3.0
+      revision: main
   self:
     path: config
