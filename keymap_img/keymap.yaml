@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   m00corne:
-  - [PT SQT, Q, W, F, P, B, J, L, U, Y, PT TILDE, PT ACUTE]
+  - ['''', Q, W, F, P, B, J, L, U, Y, '~', ACUTE]
   - - '&magic_shift LSHFT 0'
     - {t: A, h: ⌘}
     - {t: R, h: ⎇}
@@ -13,7 +13,7 @@ layers:
     - {t: E, h: ⌃}
     - {t: I, h: ⎇}
     - {t: O, h: ⌘}
-    - PT C CEDILLA
+    - CEDILLA
   - - NUBS
     - Z
     - X
@@ -24,7 +24,7 @@ layers:
     - H
     - {t: ',', s: <}
     - {t: ., s: '>'}
-    - PT SEMI
+    - {t: ;, s: ':'}
     - '&td2'
   - - ESC
     - {t: ↹, h: NAV - NUM}
@@ -65,7 +65,7 @@ layers:
     - '0'
     - ' '
   SYMBOLS:
-  - [PT SQT, PT EXCL, PT AT, PT HASH, PT DLLR, PT PRCNT, PT UMLAUT, PT AMPS, PT ASTRK, PT LPAR, PT RPAR, ⌫]
+  - ['''', '!', '@', '#', $, '%', UMLAUT, '&', '*', (, ), ⌫]
   - - ⌃
     - ' '
     - '"'
@@ -75,10 +75,10 @@ layers:
     - {t: '-', s: _}
     - {t: '=', s: +}
     - <
-    - PT LBKT
-    - PT RBKT
+    - {t: '[', s: '{'}
+    - {t: ']', s: '}'}
     - {t: '`', s: '~'}
-  - [LANG2, LANG3, LANG4, LANG5, LANG6, LANG7, _, +, '>', PT LBRC, PT RBRC, AltGr+W]
+  - [LANG2, LANG3, LANG4, LANG5, LANG6, LANG7, _, +, '>', '{', '}', AltGr+W]
   - - ⌘
     - ' '
     - SPACE
