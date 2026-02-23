@@ -1,0 +1,118 @@
+layout: {zmk_keyboard: corne}
+layers:
+  m00corne:
+  - [PT SQT, Q, W, F, P, B, J, L, U, Y, PT TILDE, PT ACUTE]
+  - - '&magic_shift LSHFT 0'
+    - {t: A, h: ⌘}
+    - {t: R, h: ⎇}
+    - {t: S, h: ⌃}
+    - {t: T, h: LSHIFT}
+    - G
+    - M
+    - {t: N, h: RSHIFT}
+    - {t: E, h: ⌃}
+    - {t: I, h: ⎇}
+    - {t: O, h: ⌘}
+    - PT C CEDILLA
+  - - NUBS
+    - Z
+    - X
+    - C
+    - D
+    - V
+    - K
+    - H
+    - {t: ',', s: <}
+    - {t: ., s: '>'}
+    - PT SEMI
+    - '&td2'
+  - - ESC
+    - {t: ↹, h: NAV - NUM}
+    - {t: SPACE, h: MOUSE}
+    - {t: RET, h: m00wm}
+    - {t: ⌫, h: SYMBOLS}
+    - {t: ⌦, h: ⎇}
+  NAV - NUM:
+  - [' ', ' ', ↑, ' ', HOME, PAGE UP, ' ', '7', '8', '9', ' ', ⌫]
+  - - ' '
+    - {t: ←, h: ⌘}
+    - {t: ↓, h: ⎇}
+    - {t: →, h: ⌃}
+    - {t: END, h: LSHIFT}
+    - PAGE DOWN
+    - ' '
+    - {t: '4', h: RSHIFT}
+    - {t: '5', h: ⌃}
+    - {t: '6', h: ⎇}
+    - ' '
+    - ' '
+  - - BT CLR
+    - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+    - {t: BT, h: '4'}
+    - ' '
+    - '1'
+    - '2'
+    - '3'
+    - ' '
+    - ' '
+  - - ' '
+    - {t: ' ', type: held}
+    - ' '
+    - ' '
+    - '0'
+    - ' '
+  SYMBOLS:
+  - [PT SQT, PT EXCL, PT AT, PT HASH, PT DLLR, PT PRCNT, PT UMLAUT, PT AMPS, PT ASTRK, PT LPAR, PT RPAR, ⌫]
+  - - ⌃
+    - ' '
+    - '"'
+    - .
+    - {t: ;, s: ':'}
+    - LANG1
+    - {t: '-', s: _}
+    - {t: '=', s: +}
+    - <
+    - PT LBKT
+    - PT RBKT
+    - {t: '`', s: '~'}
+  - [LANG2, LANG3, LANG4, LANG5, LANG6, LANG7, _, +, '>', PT LBRC, PT RBRC, AltGr+W]
+  - - ⌘
+    - ' '
+    - SPACE
+    - RET
+    - {t: ' ', type: held}
+    - ⎇
+  MOUSE:
+  - [↹, '!', '@', '#', $, '%', ^, '&', '*', (, ), ⌫]
+  - - ⌃
+    - '&mmv MOVE_LEFT'
+    - '&mmv MOVE_DOWN'
+    - '&mmv MOVE_UP'
+    - '&mmv MOVE_RIGHT'
+    - ' '
+    - {t: '-', s: _}
+    - '&mmv MOVE_LEFT'
+    - '&mmv MOVE_DOWN'
+    - '&mmv MOVE_UP'
+    - '&mmv MOVE_RIGHT'
+    - {t: '`', s: '~'}
+  - [⇧, '&msc SCRL_LEFT', '&msc SCRL_DOWN', '&msc SCRL_UP', '&msc SCRL_RIGHT', ' ', _, '&msc SCRL_LEFT', '&msc SCRL_DOWN', '&msc SCRL_UP', '&msc SCRL_RIGHT', '~']
+  - - '&mkp LCLK'
+    - '&mkp MCLK'
+    - {t: '&mkp RCLK', type: held}
+    - '&mkp LCLK'
+    - '&mkp MCLK'
+    - '&mkp RCLK'
+  m00wm:
+  - ['&bootloader', ' ', Gui+7, Gui+8, Gui+9, ' ', ' ', Gui+Sft+7, Gui+Sft+8, Gui+Sft+9, ' ', '&bootloader']
+  - ['&sys_reset', ' ', Gui+4, Gui+5, Gui+6, ' ', ' ', Gui+Sft+4, Gui+Sft+5, Gui+Sft+6, ' ', '&sys_reset']
+  - [' ', ' ', Gui+1, Gui+2, Gui+3, ' ', ' ', Gui+Sft+1, Gui+Sft+2, Gui+Sft+3, ' ', ' ']
+  - - ' '
+    - ' '
+    - ' '
+    - {t: ' ', type: held}
+    - ' '
+    - ' '
