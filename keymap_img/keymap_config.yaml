@@ -226,6 +226,7 @@ parse_config:
     EXCL: '!'
     EXCLAMATION: '!'
     FSLH: /
+    ACUTE: {t: '´', s: '`'}
     GRAVE: {t: '`', s: '~'}
     GREATER_THAN: '>'
     GT: '>'
@@ -239,6 +240,7 @@ parse_config:
     LPAR: (
     LT: <
     MINUS: {t: '-', s: '_'}
+    NUBS: \
     NON_US_BACKSLASH: \
     NON_US_BSLH: '|'
     NON_US_HASH: '#'
@@ -290,8 +292,11 @@ parse_config:
     UP: ↑
     DOWN: ↓
     TAB: ↹
+    SPACE: ⎵
+    RET: '⏎'
     RETURN: '⏎'
     ESCAPE: '⎋'
+    CEDILLA: 'Ç'
     C_REWIND: '⏮'
     C_FAST_FORWARD: '⏭'
     C_PAUSE: '⏯'

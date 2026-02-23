@@ -1,7 +1,18 @@
 layout: {zmk_keyboard: corne}
 layers:
   m00corne:
-  - ['''', Q, W, F, P, B, J, L, U, Y, '~', ACUTE]
+  - - ''''
+    - Q
+    - W
+    - F
+    - P
+    - B
+    - J
+    - L
+    - U
+    - Y
+    - '~'
+    - {t: ´, s: '`'}
   - - '&magic_shift LSHFT 0'
     - {t: A, h: ⌘}
     - {t: R, h: ⎇}
@@ -14,7 +25,7 @@ layers:
     - {t: I, h: ⎇}
     - {t: O, h: ⌘}
     - CEDILLA
-  - - NUBS
+  - - \
     - Z
     - X
     - C
@@ -28,8 +39,8 @@ layers:
     - '&td2'
   - - ESC
     - {t: ↹, h: NAV - NUM}
-    - {t: SPACE, h: MOUSE}
-    - {t: RET, h: m00wm}
+    - {t: ⎵, h: MOUSE}
+    - {t: ⏎, h: m00wm}
     - {t: ⌫, h: SYMBOLS}
     - {t: ⌦, h: ⎇}
   NAV - NUM:
@@ -81,8 +92,8 @@ layers:
   - [LANG2, LANG3, LANG4, LANG5, LANG6, LANG7, _, +, '>', '{', '}', AltGr+W]
   - - ⌘
     - ' '
-    - SPACE
-    - RET
+    - ⎵
+    - ⏎
     - {t: ' ', type: held}
     - ⎇
   MOUSE:
