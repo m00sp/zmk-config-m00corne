@@ -1,14 +1,5 @@
-## ZMK Configuration for Corne Keyboard
+# m00sp's ZMK Config
 
-This repository contains the configuration files for a 42-key Corne keyboard with a Colemak-dh layout. Inspired by [Miryoku](https://github.com/manna-harbour/miryoku/) but with my own modifications, implemented with [ZMK-Firmware](https://zmkfirmware.dev/).
+This repository contains the configuration files for a 42-key Corne keyboard with a Colemak-dh layout. Inspired by [Miryoku](https://github.com/manna-harbour/miryoku/), [urob's config](https://github.com/urob/zmk-config/) and [the great kim variation](https://github.com/infusedkim/zmk-config).
 
-Here is the layers flow chart:
-
-```mermaid
-flowchart TD
-    BASE --> NAV-NUM --> SYMBOLS --> MOUSE --> MEDIA
-
-```
-
-
-![my_keymap](https://github.com/user-attachments/assets/20bf5dc9-e969-49b2-bbc7-14e611400e90)
+![my_keymap](keymap_img/keymap.svg)
