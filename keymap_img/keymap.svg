@@ -4,6 +4,7 @@ svg {
     font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
     font-size: 16px;
     font-kerning: normal;
+    font-weight: bold;
     text-rendering: optimizeLegibility;
     fill: #24292e;
 }
