@@ -57,12 +57,12 @@ layers:
     - {t: '6', h: ⎇}
     - ' '
     - ' '
-  - - BT CLR
-    - {t: BT, h: '0'}
-    - {t: BT, h: '1'}
-    - {t: BT, h: '2'}
-    - {t: BT, h: '3'}
-    - {t: BT, h: '4'}
+  - - $$mdi:bluetooth$$
+    - {t: '$$mdi:bluetooth$$', h: '0'}
+    - {t: '$$mdi:bluetooth$$', h: '1'}
+    - {t: '$$mdi:bluetooth$$', h: '2'}
+    - {t: '$$mdi:bluetooth$$', h: '3'}
+    - {t: '$$mdi:bluetooth$$', h: '4'}
     - ' '
     - '1'
     - '2'
