@@ -58,11 +58,11 @@ layers:
     - ' '
     - ' '
   - - $$mdil:bluetooth$$
-    - {t: '$$fa:brands/bluetooth-b$$', h: '0'}
-    - {t: '$$fa:brands/bluetooth-b$$', h: '1'}
-    - {t: '$$fa:brands/bluetooth-b$$', h: '2'}
-    - {t: '$$fa:brands/bluetooth-b$$', h: '3'}
-    - {t: '$$fa:brands/bluetooth-b$$', h: '4'}
+    - {t: '$$fa:brands/bluetooth$$', h: '0'}
+    - {t: '$$fa:brands/bluetooth$$', h: '1'}
+    - {t: '$$fa:brands/bluetooth$$', h: '2'}
+    - {t: '$$fa:brands/bluetooth$$', h: '3'}
+    - {t: '$$fa:brands/bluetooth$$', h: '4'}
     - ' '
     - '1'
     - '2'
