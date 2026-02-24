@@ -188,7 +188,7 @@ parse_config:
     '&nav_word': 'NAV'
     '&caps_word_capslock': "Caps\nWord"
     '&caps_word': '⇪'
-    '&magic_shift LSHFT 0': '⇧'
+    '&magic_shift LSHFT 0': {t: '⇧', s: 'Sticky', h: 'Magic'}
     '&td2': {t: '/', s: '?', h: '¿'}
     '&td_shift_l': '⇧'
     '&td_shift_r': '⇧'
@@ -278,7 +278,9 @@ parse_config:
     UNDERSCORE: _
     LCTRL: ⌃
     LALT: ⎇
+    LG: ⌘
     LGUI: ⌘
+    LS: ⇧
     LSHIFT: ⇧
     LSHFT: ⇧
     RCTRL: ⌃
@@ -294,10 +296,10 @@ parse_config:
     RIGHT_GUI: ⌘
     RSHIFT: ⇧
     RIGHT_SHFT: ⇧
-    LEFT: ←
-    RIGHT: →
-    UP: ↑
-    DOWN: ↓
+    LEFT: ◀
+    RIGHT: ►
+    UP: ▲
+    DOWN: ▼
     TAB: ↹
     SPACE: ⎵
     RET: '⏎'
