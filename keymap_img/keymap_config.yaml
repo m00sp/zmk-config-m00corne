@@ -200,7 +200,7 @@ parse_config:
     '&num_word 6': {t: "Num\nWord", h: ""}
     '&lt_num_word 4 0': {t: "Num\nWord", h: ''}
     '&ltog LGUI 5': {t: "Cancel\nNav", h: '⌘'}
-    '&ltog LGUI 6': {t: "Cancel\nNum", h: '⌘'}
+    '&ltog LGUI 6': {t: "Cancel\nNum", h: '⌘'} 
     '&ltog LGUI 7': {t: "Cancel\nSym", h: '⌘'}
     '&ltog LGUI 8': {t: "Cancel\nFunc", h: '⌘'}
     '&ltog LGUI 9': {t: "Cancel\nAdjust", h: '⌘'}
@@ -208,7 +208,7 @@ parse_config:
   skip_binding_parsing: false
   zmk_keycode_map:
     BSPC: '⌫'
-    BT_SEL: {t: '$$mdi:bluetooth$$'}
+    BT_SEL: {t: '$$fa:brands/bluetooth-b$$'}
     BT_CLR: {t: '$$mdi:bluetooth$$'}
     DEL: '⌦'
     AMPERSAND: '&'
