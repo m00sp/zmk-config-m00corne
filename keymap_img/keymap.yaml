@@ -57,7 +57,7 @@ layers:
     - {t: '6', h: ⎇}
     - ' '
     - ' '
-  - - $$mdi:bluetooth$$
+  - - $$mdil:bluetooth$$
     - {t: '$$mdi:bluetooth$$', h: '0'}
     - {t: '$$mdi:bluetooth$$', h: '1'}
     - {t: '$$mdi:bluetooth$$', h: '2'}
