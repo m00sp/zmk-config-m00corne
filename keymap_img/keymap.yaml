@@ -1,20 +1,31 @@
 layout: {zmk_keyboard: corne}
 layers:
   m00corne:
-  - ['''', Q, W, F, P, B, J, L, U, Y, '~', ACUTE]
-  - - '&magic_shift LSHFT 0'
+  - - {t: '''', s: '"'}
+    - Q
+    - W
+    - F
+    - P
+    - B
+    - J
+    - L
+    - U
+    - Y
+    - {t: '~', s: ^}
+    - {t: ´, s: '`'}
+  - - ⇧
     - {t: A, h: ⌘}
     - {t: R, h: ⎇}
     - {t: S, h: ⌃}
-    - {t: T, h: LSHIFT}
+    - {t: T, h: ⇧}
     - G
     - M
-    - {t: N, h: RSHIFT}
+    - {t: N, h: ⇧}
     - {t: E, h: ⌃}
     - {t: I, h: ⎇}
     - {t: O, h: ⌘}
-    - CEDILLA
-  - - NUBS
+    - Ç
+  - - {t: \, s: '|'}
     - Z
     - X
     - C
@@ -25,11 +36,11 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - {t: ;, s: ':'}
-    - '&td2'
+    - {t: /, h: ¿, s: '?'}
   - - ESC
     - {t: ↹, h: NAV - NUM}
-    - {t: SPACE, h: MOUSE}
-    - {t: RET, h: m00wm}
+    - {t: ⎵, h: MOUSE}
+    - {t: ⏎, h: m00wm}
     - {t: ⌫, h: SYMBOLS}
     - {t: ⌦, h: ⎇}
   NAV - NUM:
@@ -38,10 +49,10 @@ layers:
     - {t: ←, h: ⌘}
     - {t: ↓, h: ⎇}
     - {t: →, h: ⌃}
-    - {t: END, h: LSHIFT}
+    - {t: END, h: ⇧}
     - PAGE DOWN
     - ' '
-    - {t: '4', h: RSHIFT}
+    - {t: '4', h: ⇧}
     - {t: '5', h: ⌃}
     - {t: '6', h: ⎇}
     - ' '
@@ -65,7 +76,18 @@ layers:
     - '0'
     - ' '
   SYMBOLS:
-  - ['''', '!', '@', '#', $, '%', UMLAUT, '&', '*', (, ), ⌫]
+  - - {t: '''', s: '"'}
+    - '!'
+    - '@'
+    - '#'
+    - $
+    - '%'
+    - ¨
+    - '&'
+    - '*'
+    - (
+    - )
+    - ⌫
   - - ⌃
     - ' '
     - '"'
@@ -81,8 +103,8 @@ layers:
   - [LANG2, LANG3, LANG4, LANG5, LANG6, LANG7, _, +, '>', '{', '}', AltGr+W]
   - - ⌘
     - ' '
-    - SPACE
-    - RET
+    - ⎵
+    - ⏎
     - {t: ' ', type: held}
     - ⎇
   MOUSE:
@@ -99,7 +121,18 @@ layers:
     - '&mmv MOVE_UP'
     - '&mmv MOVE_RIGHT'
     - {t: '`', s: '~'}
-  - [⇧, '&msc SCRL_LEFT', '&msc SCRL_DOWN', '&msc SCRL_UP', '&msc SCRL_RIGHT', ' ', _, '&msc SCRL_LEFT', '&msc SCRL_DOWN', '&msc SCRL_UP', '&msc SCRL_RIGHT', '~']
+  - - ⇧
+    - '&msc SCRL_LEFT'
+    - '&msc SCRL_DOWN'
+    - '&msc SCRL_UP'
+    - '&msc SCRL_RIGHT'
+    - ' '
+    - _
+    - '&msc SCRL_LEFT'
+    - '&msc SCRL_DOWN'
+    - '&msc SCRL_UP'
+    - '&msc SCRL_RIGHT'
+    - {t: '~', s: ^}
   - - '&mkp LCLK'
     - '&mkp MCLK'
     - {t: '&mkp RCLK', type: held}
