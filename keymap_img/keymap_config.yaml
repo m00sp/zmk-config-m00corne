@@ -19,7 +19,7 @@ draw_config:
     /* font and background color specifications */
     svg {
         font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-        font-size: 14px;
+        font-size: 16px;
         font-kerning: normal;
         text-rendering: optimizeLegibility;
         fill: #24292e;
@@ -186,6 +186,8 @@ parse_config:
     '&nav_word': 'NAV'
     '&caps_word_capslock': "Caps\nWord"
     '&caps_word': '⇪'
+    '&magic_shift LSHFT 0': '⇧'
+    '&td2': {t: '/', s: '?', h: '¿'}
     '&td_shift_l': '⇧'
     '&td_shift_r': '⇧'
     '&td_nav_layer': {t: '⏎', h: 'NAV'}
@@ -240,13 +242,13 @@ parse_config:
     LPAR: (
     LT: <
     MINUS: {t: '-', s: '_'}
-    NUBS: \
+    NUBS: {t: '\', s: '|'}
     NON_US_BACKSLASH: \
     NON_US_BSLH: '|'
     NON_US_HASH: '#'
     NUHS: '#'
     PERCENT: '%'
-    PERIOD: .
+    PERIOD: {t: '.', s: '>'}
     PIPE: '|'
     PIPE2: '|'
     PLUS: +
@@ -265,15 +267,17 @@ parse_config:
     SINGLE_QUOTE:  {t: '''', s: '"'}
     SLASH: {t: '/', s: '?'}
     SLASH: {t: '/', s: '?'}
-    SQT: ''''
+    SQT: {t: '''', s: '"'}
     STAR: '*'
-    TILDE: '~'
+    TILDE: {t: '~', s: '^'}
     TILDE2: '~'
+    UMLAUT: '¨'
     UNDER: _
     UNDERSCORE: _
     LCTRL: ⌃
     LALT: ⎇
     LGUI: ⌘
+    LSHIFT: ⇧
     LSHFT: ⇧
     RCTRL: ⌃
     LEFT_CONTROL: ⌃
@@ -286,6 +290,7 @@ parse_config:
     RIGHT_CONTROL: ⌃
     RIGHT_ALT: ⎇
     RIGHT_GUI: ⌘
+    RSHIFT: ⇧
     RIGHT_SHFT: ⇧
     LEFT: ←
     RIGHT: →
@@ -296,7 +301,7 @@ parse_config:
     RET: '⏎'
     RETURN: '⏎'
     ESCAPE: '⎋'
-    CEDILLA: 'Ç'
+    C_CEDILLA: 'Ç'
     C_REWIND: '⏮'
     C_FAST_FORWARD: '⏭'
     C_PAUSE: '⏯'
