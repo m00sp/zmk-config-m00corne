@@ -207,6 +207,8 @@ parse_config:
   skip_binding_parsing: false
   zmk_keycode_map:
     BSPC: '⌫'
+    BT_SEL: {t: '$$mdi:bluetooth$$'}
+    BT_CLR: {t: '$$mdi:bluetooth$$'}
     DEL: '⌦'
     AMPERSAND: '&'
     AMPS: '&'
