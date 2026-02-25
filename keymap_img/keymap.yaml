@@ -13,7 +13,7 @@ layers:
     - Y
     - {t: '~', s: ^}
     - {t: ´, s: '`'}
-  - - {t: ⇧, h: Magic, s: Sticky}
+  - - {t: ⇧, h: Sticky, s: Magic}
     - {t: A, h: ⌘}
     - {t: R, h: ⎇}
     - {t: S, h: ⌃}
@@ -57,12 +57,12 @@ layers:
     - {t: '6', h: ⎇}
     - ' '
     - ' '
-  - - $$mdil:bluetooth$$
-    - {t: '$$mdil:bluetooth$$', h: '0'}
-    - {t: '$$mdil:bluetooth$$', h: '1'}
-    - {t: '$$mdil:bluetooth$$', h: '2'}
-    - {t: '$$mdil:bluetooth$$', h: '3'}
-    - {t: '$$mdil:bluetooth$$', h: '4'}
+  - - $$phosphor:bold/bluetooth$$
+    - $$mdil:bluetooth$$
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+    - {t: BT, h: '4'}
     - ' '
     - '1'
     - '2'
