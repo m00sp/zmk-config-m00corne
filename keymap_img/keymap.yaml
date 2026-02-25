@@ -110,16 +110,16 @@ layers:
   MOUSE:
   - [↹, '!', '@', '#', $, '%', ^, '&', '*', (, ), ⌫]
   - - ⌃
-    - '&mmv MOVE_LEFT'
-    - '&mmv MOVE_DOWN'
-    - '&mmv MOVE_UP'
-    - '&mmv MOVE_RIGHT'
+    - ◀
+    - ▼
+    - ▲
+    - ►
     - ' '
     - {t: '-', s: _}
-    - '&mmv MOVE_LEFT'
-    - '&mmv MOVE_DOWN'
-    - '&mmv MOVE_UP'
-    - '&mmv MOVE_RIGHT'
+    - ◀
+    - ▼
+    - ▲
+    - ►
     - {t: '`', s: '~'}
   - - ⇧
     - '&msc SCRL_LEFT'

@@ -191,6 +191,10 @@ parse_config:
     '&bt BT_CLR': {t: '$$mdil:bluetooth$$'}
     '&magic_shift LSHFT 0': {t: '⇧', h: 'Sticky', s: 'Magic'}
     '&td2': {t: '/', s: '?', h: '¿'}
+    '&mmv MOVE_LEFT': ◀
+    '&mmv MOVE_RIGHT': ►
+    '&mmv MOVE_UP': ▲
+    '&mmv MOVE_DOWN': ▼
     '&td_shift_l': '⇧'
     '&td_shift_r': '⇧'
     '&td_nav_layer': {t: '⏎', h: 'NAV'}
