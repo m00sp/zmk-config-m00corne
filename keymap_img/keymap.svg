@@ -3,9 +3,6 @@
 <svg id="mdil:bluetooth">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdil-bluetooth" viewBox="0 0 24 24"><path d="M11,3H12L16.85,7.85L12.21,12.5L16.85,17.15L12,22H11V13.71L6.55,18.16L5.84,17.45L10.79,12.5L5.84,7.55L6.55,6.84L11,11.29V3M12,4.41V11.29L15.44,7.85L12,4.41M12,20.59L15.44,17.15L12,13.71V20.59Z" /></svg>
 </svg>
-<svg id="phosphor:bold/bluetooth">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M199.2,166.4,148,128l51.2-38.4a12,12,0,0,0,0-19.2l-64-48A12,12,0,0,0,116,32v72L71.2,70.4A12,12,0,0,0,56.8,89.6L108,128,56.8,166.4a12,12,0,1,0,14.4,19.2L116,152v72a12,12,0,0,0,19.2,9.6l64-48a12,12,0,0,0,0-19.2ZM140,56l32,24-32,24Zm0,144V152l32,24Z"/></svg>
-</svg>
 </defs>/* end glyphs */
 <style>/* font and background color specifications */
 svg {
@@ -399,27 +396,27 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(84, 161)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/bluetooth" xlink:href="#phosphor:bold/bluetooth" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/bluetooth"/>
+<use href="#mdil:bluetooth" xlink:href="#mdil:bluetooth" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdil:bluetooth"/>
 <text x="0" y="24" class="key hold">0</text>
 </g>
 <g transform="translate(140, 147)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/bluetooth" xlink:href="#phosphor:bold/bluetooth" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/bluetooth"/>
+<use href="#mdil:bluetooth" xlink:href="#mdil:bluetooth" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdil:bluetooth"/>
 <text x="0" y="24" class="key hold">1</text>
 </g>
 <g transform="translate(196, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/bluetooth" xlink:href="#phosphor:bold/bluetooth" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/bluetooth"/>
+<use href="#mdil:bluetooth" xlink:href="#mdil:bluetooth" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdil:bluetooth"/>
 <text x="0" y="24" class="key hold">2</text>
 </g>
 <g transform="translate(252, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/bluetooth" xlink:href="#phosphor:bold/bluetooth" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/bluetooth"/>
+<use href="#mdil:bluetooth" xlink:href="#mdil:bluetooth" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdil:bluetooth"/>
 <text x="0" y="24" class="key hold">3</text>
 </g>
 <g transform="translate(308, 154)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/bluetooth" xlink:href="#phosphor:bold/bluetooth" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/bluetooth"/>
+<use href="#mdil:bluetooth" xlink:href="#mdil:bluetooth" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdil:bluetooth"/>
 <text x="0" y="24" class="key hold">4</text>
 </g>
 <g transform="translate(532, 154)" class="key keypos-30">

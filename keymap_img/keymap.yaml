@@ -58,11 +58,11 @@ layers:
     - ' '
     - ' '
   - - $$mdil:bluetooth$$
-    - {t: '$$phosphor:bold/bluetooth$$', h: '0'}
-    - {t: '$$phosphor:bold/bluetooth$$', h: '1'}
-    - {t: '$$phosphor:bold/bluetooth$$', h: '2'}
-    - {t: '$$phosphor:bold/bluetooth$$', h: '3'}
-    - {t: '$$phosphor:bold/bluetooth$$', h: '4'}
+    - {t: '$$mdil:bluetooth$$', h: '0'}
+    - {t: '$$mdil:bluetooth$$', h: '1'}
+    - {t: '$$mdil:bluetooth$$', h: '2'}
+    - {t: '$$mdil:bluetooth$$', h: '3'}
+    - {t: '$$mdil:bluetooth$$', h: '4'}
     - ' '
     - '1'
     - '2'

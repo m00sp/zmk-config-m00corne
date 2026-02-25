@@ -208,7 +208,7 @@ parse_config:
   skip_binding_parsing: false
   zmk_keycode_map:
     BSPC: '⌫'
-    BT_SEL: {t: '$$phosphor:bold/bluetooth$$'}
+    BT_SEL: {t: '$$mdil:bluetooth$$'}
     DEL: '⌦'
     AMPERSAND: '&'
     AMPS: '&'
