@@ -122,16 +122,16 @@ layers:
     - ►
     - {t: '`', s: '~'}
   - - ⇧
-    - '&msc SCRL_LEFT'
-    - '&msc SCRL_DOWN'
-    - '&msc SCRL_UP'
-    - '&msc SCRL_RIGHT'
+    - ◁
+    - ▽
+    - △
+    - ▻
     - ' '
     - _
-    - '&msc SCRL_LEFT'
-    - '&msc SCRL_DOWN'
-    - '&msc SCRL_UP'
-    - '&msc SCRL_RIGHT'
+    - ◁
+    - ▽
+    - △
+    - ▻
     - {t: '~', s: ^}
   - - '&mkp LCLK'
     - '&mkp MCLK'
