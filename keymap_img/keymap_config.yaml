@@ -188,8 +188,7 @@ parse_config:
     '&nav_word': 'NAV'
     '&caps_word_capslock': "Caps\nWord"
     '&caps_word': '⇪'
-    '&bt BT_SEL 0' : {t: '$$mdil:bluetooth$$'}
-    '&bt BT_CLR': {t: '$$phosphor:bold/bluetooth$$'}
+    '&bt BT_CLR': {t: '$$mdil:bluetooth$$'}
     '&magic_shift LSHFT 0': {t: '⇧', h: 'Sticky', s: 'Magic'}
     '&td2': {t: '/', s: '?', h: '¿'}
     '&td_shift_l': '⇧'
@@ -208,6 +207,7 @@ parse_config:
     '&trans': {t: ' '}
   skip_binding_parsing: false
   zmk_keycode_map:
+    BT_SEL: {t: '$$mdil:bluetooth$$'}
     BSPC: '⌫'
     DEL: '⌦'
     AMPERSAND: '&'
