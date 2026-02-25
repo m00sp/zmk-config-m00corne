@@ -195,6 +195,12 @@ parse_config:
     '&mmv MOVE_RIGHT': ►
     '&mmv MOVE_UP': ▲
     '&mmv MOVE_DOWN': ▼
+    '&msc MOVE_LEFT': ◁ 
+    '&msc MOVE_RIGHT': ▻
+    '&msc MOVE_UP': △
+    '&msc MOVE_DOWN': ▽
+    '&sys_reset': 'RESET'
+    '&bootloader': 'BOOT'
     '&td_shift_l': '⇧'
     '&td_shift_r': '⇧'
     '&td_nav_layer': {t: '⏎', h: 'NAV'}
