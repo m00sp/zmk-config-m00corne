@@ -207,7 +207,7 @@ parse_config:
     '&trans': {t: ' '}
   skip_binding_parsing: false
   zmk_keycode_map:
-    BT_SEL: {t: '$$mdil:bluetooth$$'}
+    BT_SEL: $$mdil:bluetooth$$
     BSPC: '⌫'
     DEL: '⌦'
     AMPERSAND: '&'
