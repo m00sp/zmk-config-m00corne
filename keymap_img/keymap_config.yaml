@@ -208,8 +208,7 @@ parse_config:
   skip_binding_parsing: false
   zmk_keycode_map:
     BSPC: '⌫'
-    BT_SEL: {t: '$$fa:brands/bluetooth$$'}
-    BT_CLR: {t: '$$mdi:bluetooth$$'}
+    BT_SEL: {t: '$$phosphor:bold/bluetooth$$'}
     DEL: '⌦'
     AMPERSAND: '&'
     AMPS: '&'
