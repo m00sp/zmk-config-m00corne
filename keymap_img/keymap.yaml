@@ -142,11 +142,11 @@ layers:
   - [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
   - [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
   - - $$bluetooth$$
-    - {t: '$$mdil:bluetooth$$', h: '0'}
-    - {t: '$$mdil:bluetooth$$', h: '1'}
-    - {t: '$$mdil:bluetooth$$', h: '2'}
-    - {t: '$$mdil:bluetooth$$', h: '3'}
-    - {t: '$$mdil:bluetooth$$', h: '4'}
+    - {t: $$bluetooth$$, h: '0'}
+    - {t: $$bluetooth$$, h: '1'}
+    - {t: $$bluetooth$$, h: '2'}
+    - {t: $$bluetooth$$, h: '3'}
+    - {t: $$bluetooth$$, h: '4'}
     - ' '
     - ' '
     - ' '

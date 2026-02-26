@@ -25,7 +25,7 @@ draw_config:
       </svg>
     bluetooth: |
       <svg viewBox="0 0 24 24">
-      	<path style="stroke: black; fill: black;" d="M11,3H12L16.85,7.85L12.21,12.5L16.85,17.15L12,22H11V13.71L6.55,18.16L5.84,17.45L10.79,12.5L5.84,7.55L6.55,6.84L11,11.29V3M12,4.41V11.29L15.44,7.85L12,4.41M12,20.59L15.44,17.15L12,13.71V20.59Z" />
+      	<path style="stroke: white; fill: white;" d="M11,3H12L16.85,7.85L12.21,12.5L16.85,17.15L12,22H11V13.71L6.55,18.16L5.84,17.45L10.79,12.5L5.84,7.55L6.55,6.84L11,11.29V3M12,4.41V11.29L15.44,7.85L12,4.41M12,20.59L15.44,17.15L12,13.71V20.59Z" />
       </svg>
   svg_style: |
     /* font and background color specifications */
@@ -231,7 +231,7 @@ parse_config:
     '&trans': {t: ' '}
   skip_binding_parsing: false
   zmk_keycode_map:
-    BT_SEL: $$mdil:bluetooth$$
+    BT_SEL: $$bluetooth$$
     BSPC: '⌫'
     DEL: '⌦'
     AMPERSAND: '&'
