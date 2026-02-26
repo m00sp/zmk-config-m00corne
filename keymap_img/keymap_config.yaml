@@ -27,6 +27,10 @@ draw_config:
       <svg viewBox="0 0 24 24">
       	<path style="stroke: white; fill: white;" d="M11,3H12L16.85,7.85L12.21,12.5L16.85,17.15L12,22H11V13.71L6.55,18.16L5.84,17.45L10.79,12.5L5.84,7.55L6.55,6.84L11,11.29V3M12,4.41V11.29L15.44,7.85L12,4.41M12,20.59L15.44,17.15L12,13.71V20.59Z" />
       </svg>
+    # bluetooth-off: |
+    #  󰂲<svg viewBox="0 0 24 24">
+    #     <path style="stroke: white; fill: white;" d="M13,5.83L14.88,7.71L13.28,9.31L14.69,10.72L17.71,7.7L12,2H11V7.03L13,9.03M5.41,4L4,5.41L10.59,12L5,17.59L6.41,19L11,14.41V22H12L16.29,17.71L18.59,20L20,18.59M13,18.17V14.41L14.88,16.29" />
+    #   </svg>
   svg_style: |
     /* font and background color specifications */
     svg {
@@ -199,7 +203,7 @@ parse_config:
     '&nav_word': 'NAV'
     '&caps_word_capslock': "Caps\nWord"
     '&caps_word': '⇪'
-    '&bt BT_CLR': {t: '$$bluetooth$$'}
+    '&bt BT_CLR': {t: '$$bluetooth$$', s: 'CLR'}
     '&magic_shift LSHFT 0': {t: '⇧', h: 'Sticky', s: 'Magic'}
     '&td2': {t: '/', s: '?', h: '¿'}
     '&mmv MOVE_LEFT': ◀

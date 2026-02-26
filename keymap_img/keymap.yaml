@@ -141,7 +141,7 @@ layers:
   MIXXX:
   - [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
   - [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
-  - - $$bluetooth$$
+  - - {t: $$bluetooth$$, s: CLR}
     - {t: $$bluetooth$$, h: '0'}
     - {t: $$bluetooth$$, h: '1'}
     - {t: $$bluetooth$$, h: '2'}
