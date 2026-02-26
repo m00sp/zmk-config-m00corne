@@ -100,10 +100,10 @@ layers:
   - [RESET, ' ', Gui+4, Gui+5, Gui+6, ' ', ' ', Gui+Sft+4, Gui+Sft+5, Gui+Sft+6, ' ', RESET]
   - [' ', ' ', Gui+1, Gui+2, Gui+3, ' ', ' ', Gui+Sft+1, Gui+Sft+2, Gui+Sft+3, ' ', ' ']
   - - ' '
-    - ' '
+    - '&LG(N0)'
     - ' '
     - {t: ' ', type: held}
-    - Gui+Sft+0
+    - ⌘+⇧+0
     - ' '
   MIXXX:
   - [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']

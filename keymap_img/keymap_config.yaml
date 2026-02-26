@@ -219,7 +219,6 @@ parse_config:
     '&mkp LCLK': 'L'
     '&mkp MCLK': 'M'
     '&mkp RCLK': 'R'
-    'LG(LS(0))': '⌘⇧'
     '&td_shift_l': '⇧'
     '&td_shift_r': '⇧'
     '&td_nav_layer': {t: '⏎', h: 'NAV'}
@@ -362,6 +361,8 @@ parse_config:
     'LG(V)': '⌘V'
     'LC(TAB)': '⌃↹'
     'LS(LC(TAB))': '⌃⇧↹'
+    'LG(N0)': '⌘+0'
+    'LG(LS(N0))': '⌘+⇧+0'
   zmk_combos:
     combo_tog_nav_word: {'a': 'bottom', 'o': +0.05}
     combo_tog_num_word: {'a': 'bottom', 'o': +0.25}
