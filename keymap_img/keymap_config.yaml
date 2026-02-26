@@ -203,7 +203,7 @@ parse_config:
     '&nav_word': 'NAV'
     '&caps_word_capslock': "Caps\nWord"
     '&caps_word': '⇪'
-    '&bt BT_CLR': {t: '$$bluetooth$$', s: 'CLR'}
+    '&bt BT_CLR': {t: '$$bluetooth$$', h: 'CLR'}
     '&magic_shift LSHFT 0': {t: '⇧', h: 'Sticky', s: 'Magic'}
     '&td2': {t: '/', s: '?', h: '¿'}
     '&mmv MOVE_LEFT': ◀
