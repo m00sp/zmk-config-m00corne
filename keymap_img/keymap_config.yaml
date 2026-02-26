@@ -309,9 +309,9 @@ parse_config:
     UNDERSCORE: _
     LCTRL: ⌃
     LALT: ⎇
-    LG: ⌘
+    # LG: ⌘
     LGUI: ⌘
-    LS: ⇧
+    # LS: ⇧
     LSHIFT: ⇧
     LSHFT: ⇧
     RCTRL: ⌃
