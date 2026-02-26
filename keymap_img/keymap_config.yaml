@@ -16,6 +16,17 @@ draw_config:
   outer_pad_w: 30.0
   small_pad: 2.0
   split_gap: 30.0
+  glyphs: # mapping of glyph name to be used to svg definition
+    vol_up: |
+      <svg viewBox="2 3 34 33">
+        <path style="stroke: black; fill: black;" d="M23.41,25.25a1,1,0,0,1-.54-1.85,6.21,6.21,0,0,0-.19-10.65,1,1,0,1,1,1-1.73,8.21,8.21,0,0,1,.24,14.06A1,1,0,0,1,23.41,25.25Z"/>
+        <path style="stroke: black; fill: black;" d="M25.62,31.18a1,1,0,0,1-.45-1.89A12.44,12.44,0,0,0,25,6.89a1,1,0,1,1,.87-1.8,14.44,14.44,0,0,1,.24,26A1,1,0,0,1,25.62,31.18Z"/>
+        <path style="stroke: black; fill: black;" d="M18.33,4,9.07,12h-6a1,1,0,0,0-1,1v9.92a1,1,0,0,0,1,1H8.88l9.46,8.24A1,1,0,0,0,20,31.43V4.72A1,1,0,0,0,18.33,4Z"/>
+      </svg>
+    bluetooth: |
+      <svg viewBox="0 0 24 24">
+      	<path style="stroke: black; fill: black;" d="M11,3H12L16.85,7.85L12.21,12.5L16.85,17.15L12,22H11V13.71L6.55,18.16L5.84,17.45L10.79,12.5L5.84,7.55L6.55,6.84L11,11.29V3M12,4.41V11.29L15.44,7.85L12,4.41M12,20.59L15.44,17.15L12,13.71V20.59Z" />
+      </svg>
   svg_style: |
     /* font and background color specifications */
     svg {
@@ -188,7 +199,7 @@ parse_config:
     '&nav_word': 'NAV'
     '&caps_word_capslock': "Caps\nWord"
     '&caps_word': '⇪'
-    '&bt BT_CLR': {t: '$$mdil:bluetooth$$'}
+    '&bt BT_CLR': {t: '$$bluetooth$$'}
     '&magic_shift LSHFT 0': {t: '⇧', h: 'Sticky', s: 'Magic'}
     '&td2': {t: '/', s: '?', h: '¿'}
     '&mmv MOVE_LEFT': ◀
