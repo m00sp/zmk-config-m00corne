@@ -37,12 +37,12 @@ layers:
     - {t: ., s: '>'}
     - {t: ;, s: ':'}
     - {t: /, h: ¿, s: '?'}
-  - - ESC
+  - - {t: ESC, h: MIXXX}
     - {t: ↹, h: NAV - NUM}
     - {t: ⎵, h: MOUSE}
     - {t: ⏎, h: m00wm}
     - {t: ⌫, h: SYMBOLS}
-    - {t: ⌦, h: ⎇}
+    - {t: ⌦, h: '6'}
   NAV - NUM:
   - [' ', ' ', ▲, ' ', HOME, PAGE UP, ' ', '7', '8', '9', ' ', ⌫]
   - - ' '
@@ -139,8 +139,8 @@ layers:
     - ' '
     - ' '
   MIXXX:
-  - [BOOT, ' ', Gui+7, Gui+8, Gui+9, ' ', ' ', Gui+Sft+7, Gui+Sft+8, Gui+Sft+9, ' ', BOOT]
-  - [RESET, ' ', Gui+4, Gui+5, Gui+6, ' ', ' ', Gui+Sft+4, Gui+Sft+5, Gui+Sft+6, ' ', RESET]
+  - [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
+  - [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
   - - $$mdil:bluetooth$$
     - {t: '$$mdil:bluetooth$$', h: '0'}
     - {t: '$$mdil:bluetooth$$', h: '1'}
@@ -148,13 +148,18 @@ layers:
     - {t: '$$mdil:bluetooth$$', h: '3'}
     - {t: '$$mdil:bluetooth$$', h: '4'}
     - ' '
-    - Gui+Sft+1
-    - Gui+Sft+2
-    - Gui+Sft+3
     - ' '
     - ' '
-  - [' ', ' ', ' ', ' ', ' ', ' ']
-  FUN:
+    - ' '
+    - ' '
+    - ' '
+  - - {t: ' ', type: held}
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+  FUNC:
   - [BOOT, ' ', Gui+7, Gui+8, Gui+9, ' ', ' ', Gui+Sft+7, Gui+Sft+8, Gui+Sft+9, ' ', BOOT]
   - [RESET, ' ', Gui+4, Gui+5, Gui+6, ' ', ' ', Gui+Sft+4, Gui+Sft+5, Gui+Sft+6, ' ', RESET]
   - [' ', ' ', Gui+1, Gui+2, Gui+3, ' ', ' ', Gui+Sft+1, Gui+Sft+2, Gui+Sft+3, ' ', ' ']
