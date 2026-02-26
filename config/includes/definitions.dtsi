@@ -18,4 +18,10 @@
 
 #define QUICK_TAP_MS 175
 
+#define BASE 0
 #define NUM 1
+#define SYM 2
+#define MOUSE 3
+#define WM 4
+#define MIXXX 5
+#define FUNC 6
