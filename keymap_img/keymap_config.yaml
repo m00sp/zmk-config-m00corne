@@ -219,6 +219,7 @@ parse_config:
     '&mkp LCLK': 'L'
     '&mkp MCLK': 'M'
     '&mkp RCLK': 'R'
+    '&kt LG(LS(0))': "⌘+⇧+0"
     '&td_shift_l': '⇧'
     '&td_shift_r': '⇧'
     '&td_nav_layer': {t: '⏎', h: 'NAV'}
