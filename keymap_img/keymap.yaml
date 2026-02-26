@@ -42,7 +42,7 @@ layers:
     - {t: ⎵, h: MOUSE}
     - {t: ⏎, h: m00wm}
     - {t: ⌫, h: SYMBOLS}
-    - {t: ⌦, h: '6'}
+    - {t: ⌦, h: FUNC}
   NAV - NUM:
   - [' ', ' ', ▲, ' ', HOME, PAGE UP, ' ', '7', '8', '9', ' ', ⌫]
   - - ' '
@@ -160,7 +160,12 @@ layers:
     - ' '
     - ' '
   FUNC:
-  - [BOOT, ' ', Gui+7, Gui+8, Gui+9, ' ', ' ', Gui+Sft+7, Gui+Sft+8, Gui+Sft+9, ' ', BOOT]
-  - [RESET, ' ', Gui+4, Gui+5, Gui+6, ' ', ' ', Gui+Sft+4, Gui+Sft+5, Gui+Sft+6, ' ', RESET]
+  - [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
+  - [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
   - [' ', ' ', Gui+1, Gui+2, Gui+3, ' ', ' ', Gui+Sft+1, Gui+Sft+2, Gui+Sft+3, ' ', ' ']
-  - [' ', ' ', ' ', ' ', ' ', ' ']
+  - - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - {t: ' ', type: held}
