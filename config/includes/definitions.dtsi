@@ -14,6 +14,12 @@
 #define HM_TAPPING_TERM_FAST 200
 #define HM_PRIOR_IDLE 150
 
+#define COMBO_TERM_FAST 18
+#define COMBO_TERM_SLOW 30
+
+#define COMBO_IDLE_FAST 150
+#define COMBO_IDLE_SLOW 50
+
 /* Global defaults */
 
 #define QUICK_TAP_MS 175
