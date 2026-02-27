@@ -1,3 +1,6 @@
 /*
  *	Use this file for your combos
  */
+
+/* Horizontal combos - left hand */
+ZMK_COMBO(mouse, &smart_mouse, LM3 LM2,     BASE NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
