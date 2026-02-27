@@ -23,5 +23,5 @@
 #define SYM 2
 #define MOUSE 3
 #define WM 4
-#define MIXXX 5
+#define MEDIA 5
 #define FUNC 6
