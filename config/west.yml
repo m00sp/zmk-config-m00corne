@@ -35,5 +35,8 @@ manifest:
     - name: zmk-adaptive-key
       remote: urob
       revision: v0.3 # Should match ZMK release.
+    - name: zmk-tri-state
+      remote: urob
+      revision: v0.3 # Should match ZMK release.
   self:
     path: config
