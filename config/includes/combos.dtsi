@@ -13,8 +13,8 @@ ZMK_COMBO(mouse, &smart_mouse, LM3 LM2,     BASE NUM, COMBO_TERM_FAST, COMBO_IDL
       timeout-ms = <COMBO_TERM_SLOW>;
       require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
       key-positions = <LM3 LM2>;
-      layers = <BASE NUM>;
-      bindings = <&smart_mouse>;
+      layers = <BASE>;
+      bindings = <&num_word NUM>;
     };
   };
 };
