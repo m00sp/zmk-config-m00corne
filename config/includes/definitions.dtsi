@@ -19,6 +19,7 @@
 
 #define COMBO_IDLE_FAST 150
 #define COMBO_IDLE_SLOW 50
+#define COMBO_PRIOR_IDLE 100
 
 /* Global defaults */
 
