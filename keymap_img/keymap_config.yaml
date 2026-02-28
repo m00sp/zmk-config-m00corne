@@ -216,7 +216,7 @@ parse_config:
     '&msc SCRL_UP': △
     '&msc SCRL_DOWN': ▽
     '&sys_reset': 'RESET'
-    '&smart_mouse': 'Mouse\nLayer'
+    '&smart_mouse': "Mouse\nLayer"
     '&bootloader': 'BOOT'
     '&mkp LCLK': 'L'
     '&mkp MCLK': 'M'
