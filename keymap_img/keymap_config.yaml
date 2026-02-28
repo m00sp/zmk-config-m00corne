@@ -398,7 +398,7 @@ parse_config:
     combo_tog_nav_word: {'a': 'bottom', 'o': +0.05}
     combo_tog_num_word: {'a': 'bottom', 'o': +0.25}
     combo_return: {'a': 'bottom', 'o': 0.3}
-    combo_nav_word: {'k': "Smart\nNav\nLayer"}
-    combo_num_word: {'k': "Smart\nNum\nLayer"}
-    combo_smart_mouse: {'k': "Smart\nMouse\nLayer"}
+    combo_nav_word: {'k': "Nav\nLayer"}
+    combo_num_word: {'k': "Num\nLayer"}
+    combo_mouse: {'k': "Mouse\nLayer"}
     combo_tog_mouse_keys_r: {'a': 'bottom', 'o': +2}
