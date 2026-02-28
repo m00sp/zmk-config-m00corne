@@ -106,6 +106,7 @@ draw_config:
     }
 parse_config:
   zmk_remove_keycode_prefix: ["PT_"]
+  zmk_additional_includes: ["../config/zmk-helpers"]
   assign_combos_to_layers: false
   preprocess: true
   qmk_keycode_map:

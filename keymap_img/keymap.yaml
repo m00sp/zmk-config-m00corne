@@ -128,10 +128,24 @@ layers:
   FUNC:
   - [' ', ' ', F7, F8, F9, F10, Sft+F10, Sft+F7, Sft+F8, Sft+F9, ' ', ' ']
   - [' ', ' ', F4, F5, F6, F11, Sft+F11, Sft+F4, Sft+F5, Sft+F6, ' ', ' ']
-  - [' ', ' ', F1, F2, F3, F12, Sft+F12, Sft+F1, Sft+F2, (F3), ' ', ' ']
+  - [' ', ' ', F1, F2, F3, F12, Sft+F12, Sft+F1, Sft+F2, Sft+F3, ' ', ' ']
   - - ' '
     - ' '
     - ' '
     - ' '
     - ' '
     - {t: ' ', type: held}
+combos:
+- p: [14, 15]
+  k: '&smart_mouse'
+  l: [BASE, NAV]
+- p: [14, 15]
+  k: 'Num
+
+    Word'
+  l: [BASE]
+- p: [21, 20]
+  k: 'Nav
+
+    Word'
+  l: [BASE]
