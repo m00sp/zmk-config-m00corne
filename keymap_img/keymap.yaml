@@ -136,7 +136,7 @@ layers:
     - ' '
     - {t: ' ', type: held}
 combos:
-- p: [14, 15]
+- p: [16, 15]
   k: '&smart_mouse'
   l: [BASE, NAV]
 - p: [14, 15]
