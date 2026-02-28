@@ -14,6 +14,13 @@
 #define HM_TAPPING_TERM_FAST 200
 #define HM_PRIOR_IDLE 150
 
+#define COMBO_TERM_FAST 18
+#define COMBO_TERM_SLOW 30
+
+#define COMBO_IDLE_FAST 150
+#define COMBO_IDLE_SLOW 50
+#define COMBO_PRIOR_IDLE 100
+
 /* Global defaults */
 
 #define QUICK_TAP_MS 175
@@ -23,5 +30,5 @@
 #define SYM 2
 #define MOUSE 3
 #define WM 4
-#define MIXXX 5
+#define MEDIA 5
 #define FUNC 6
