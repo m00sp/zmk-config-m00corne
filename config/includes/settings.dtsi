@@ -15,6 +15,10 @@
   win-compose-key = <RALT>;        // Overwrite WinCompose compose key
 };
 
+&num_word {
+  continue-list = <LEFT UP DOWN RIGHT BSPC DEL DOT COMMA>;
+};
+
 /* Magic-shift & auto-layers */
 
 // Tap: repeat after alpha, else sticky-shift |
