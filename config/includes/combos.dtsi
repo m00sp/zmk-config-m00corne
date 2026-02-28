@@ -3,7 +3,7 @@
  */
 
 /* Horizontal combos - left hand */
-ZMK_COMBO(mouse, &smart_mouse, LM1 LM2,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(mouse, &smart_mouse, LM1 LM2,     BASE NAV NUM MOUSE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 / {
   combos {
