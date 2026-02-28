@@ -386,5 +386,5 @@ parse_config:
     combo_tog_num_word: {'a': 'bottom', 'o': +0.25}
     combo_return: {'a': 'bottom', 'o': 0.3}
     combo_capsword: {'k': "Caps\nWord"}
-    combo_tog_mouse_keys_l: {'a': 'bottom', 'o': +2}
+    combo_mouse: {'a': 'bottom', 'o': +2}
     combo_tog_mouse_keys_r: {'a': 'bottom', 'o': +2}
