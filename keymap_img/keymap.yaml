@@ -130,12 +130,16 @@ combos:
   k: '&smart_mouse'
   l: [BASE, NAV, NUM, MOUSE]
 - p: [14, 15]
-  k: 'Num
+  k: 'Smart
+
+    Num
 
     Layer'
   l: [BASE]
 - p: [21, 20]
-  k: 'Nav
+  k: 'Smart
+
+    Nav
 
     Layer'
   l: [BASE]
