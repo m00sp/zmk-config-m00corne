@@ -400,4 +400,5 @@ parse_config:
     combo_return: {'a': 'bottom', 'o': 0.3}
     combo_nav_word: {'k': "Nav\nLayer"}
     combo_num_word: {'k': "Num\nLayer"}
+    combo_sym_word: {'k': "Sym\nLayer"}
     combo_tog_mouse_keys_r: {'a': 'bottom', 'o': +2}

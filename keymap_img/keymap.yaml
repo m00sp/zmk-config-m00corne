@@ -142,5 +142,7 @@ combos:
     Layer'
   l: [BASE, NUM]
 - p: [19, 20]
-  k: {t: SYMBOLS, h: sticky}
+  k: 'Sym
+
+    Layer'
   l: [BASE, NUM, NAV]

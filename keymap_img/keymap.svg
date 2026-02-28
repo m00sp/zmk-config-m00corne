@@ -309,9 +309,9 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="74" width="28" height="26" class="combo"/>
-<a href="#SYMBOLS">
-<text x="616" y="88" class="combo tap layer-activator">SYMBOLS</text>
-</a><text x="616" y="98" class="combo hold">sticky</text>
+<text x="616" y="88" class="combo tap">
+<tspan x="616" dy="-0.6em">Sym</tspan><tspan x="616" dy="1.2em">Layer</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -471,9 +471,9 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="602" y="74" width="28" height="26" class="combo"/>
-<a href="#SYMBOLS">
-<text x="616" y="88" class="combo tap layer-activator">SYMBOLS</text>
-</a><text x="616" y="98" class="combo hold">sticky</text>
+<text x="616" y="88" class="combo tap">
+<tspan x="616" dy="-0.6em">Sym</tspan><tspan x="616" dy="1.2em">Layer</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -633,9 +633,9 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="602" y="74" width="28" height="26" class="combo"/>
-<a href="#SYMBOLS">
-<text x="616" y="88" class="combo tap layer-activator">SYMBOLS</text>
-</a><text x="616" y="98" class="combo hold">sticky</text>
+<text x="616" y="88" class="combo tap">
+<tspan x="616" dy="-0.6em">Sym</tspan><tspan x="616" dy="1.2em">Layer</tspan>
+</text>
 </g>
 </g>
 </g>
