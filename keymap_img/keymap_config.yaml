@@ -382,10 +382,22 @@ parse_config:
     'LG(LS(N7))': '⌘ ⇧ 7'
     'LG(LS(N8))': '⌘ ⇧ 8'
     'LG(LS(N9))': '⌘ ⇧ 9'
+    'LS(F1)': '⇧ F1'
+    'LS(F2)': '⇧ F2'
+    'LS(F3)': '⇧ F3'
+    'LS(F4)': '⇧ F4'
+    'LS(F5)': '⇧ F5'
+    'LS(F6)': '⇧ F6'
+    'LS(F7)': '⇧ F7'
+    'LS(F8)': '⇧ F8'
+    'LS(F9)': '⇧ F9'
+    'LS(F10)': '⇧ F10'
+    'LS(F11)': '⇧ F11'
+    'LS(F12)': '⇧ F12'
   zmk_combos:
     combo_tog_nav_word: {'a': 'bottom', 'o': +0.05}
     combo_tog_num_word: {'a': 'bottom', 'o': +0.25}
     combo_return: {'a': 'bottom', 'o': 0.3}
-    combo_nav_word: {'k': "Nav\nWord"}
-    combo_num_word: {'k': "Num\nWord"}
+    combo_nav_word: {'k': "Nav\nLayer"}
+    combo_num_word: {'k': "Num\nLayer"}
     combo_tog_mouse_keys_r: {'a': 'bottom', 'o': +2}
