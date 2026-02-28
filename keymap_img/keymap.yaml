@@ -127,9 +127,7 @@ layers:
     - {t: ' ', type: held}
 combos:
 - p: [16, 15]
-  k: 'Mouse
-
-    Layer'
+  k: Mouse\nLayer
   l: [BASE, NAV, NUM, MOUSE]
 - p: [14, 15]
   k: 'Num

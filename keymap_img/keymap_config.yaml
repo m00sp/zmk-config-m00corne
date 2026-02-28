@@ -216,6 +216,7 @@ parse_config:
     '&msc SCRL_UP': △
     '&msc SCRL_DOWN': ▽
     '&sys_reset': 'RESET'
+    '&smart_mouse': 'Mouse\nLayer'
     '&bootloader': 'BOOT'
     '&mkp LCLK': 'L'
     '&mkp MCLK': 'M'
@@ -226,7 +227,6 @@ parse_config:
     '&td_bt_clear': 'BT CLR'
     '&m_type_md_code_block': '```'
     '&kt LSHFT': "⇧\nLock"
-    '&num_word 6': {t: "Num\nWord", h: ""}
     '&lt_num_word 4 0': {t: "Num\nWord", h: ''}
     '&ltog LGUI 5': {t: "Cancel\nNav", h: '⌘'}
     '&ltog LGUI 6': {t: "Cancel\nNum", h: '⌘'} 
@@ -400,5 +400,4 @@ parse_config:
     combo_return: {'a': 'bottom', 'o': 0.3}
     combo_nav_word: {'k': "Nav\nLayer"}
     combo_num_word: {'k': "Num\nLayer"}
-    combo_mouse: {'k': "Mouse\nLayer"}
     combo_tog_mouse_keys_r: {'a': 'bottom', 'o': +2}
