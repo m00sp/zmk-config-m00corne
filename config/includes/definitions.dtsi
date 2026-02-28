@@ -26,8 +26,8 @@
 #define QUICK_TAP_MS 175
 
 #define BASE 0
-#define NUM 1
-#define NAV 2
+#define NAV 1
+#define NUM 2
 #define SYM 3
 #define MOUSE 4
 #define WM 5
