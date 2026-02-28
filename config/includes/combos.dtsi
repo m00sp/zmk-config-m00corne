@@ -13,15 +13,22 @@ ZMK_COMBO(mouse, &smart_mouse, LM1 LM2,     BASE NAV NUM, COMBO_TERM_FAST, COMBO
       timeout-ms = <COMBO_TERM_SLOW>;
       require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
       key-positions = <LM3 LM2>;
-      layers = <BASE>;
+      layers = <BASE NAV>;
       bindings = <&num_word NUM>;
     };
     combo_nav_word {
       timeout-ms = <COMBO_TERM_SLOW>;
       require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
       key-positions = <RM3 RM2>;
-      layers = <BASE>;
+      layers = <BASE NUM>;
       bindings = <&num_word NAV>;
+    };
+    combo_sym_word {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
+      key-positions = <RM1 RM2>;
+      layers = <BASE NUM NAV>;
+      bindings = <&sl SYM>;
     };
   };
 };
