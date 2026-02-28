@@ -14,7 +14,7 @@
 
 
                 default_layer {
-                        display-name = "m00corne";
+                        display-name = "BASE";
 // -----------------------------------------------------------------------------------------
 // |   `  |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ~  |  ´  |
 // | Caps |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  Ç  |
@@ -24,7 +24,7 @@
    &kp PT_SQT &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp PT_TILDE    &kp PT_ACUTE
    &magic_shift	LSHFT	0 &hm_l LGUI A &hm_l LALT R &hm_l LCTRL S &hm_shift_l LSHIFT T &kp G   &kp M &hm_shift_r RSHIFT N  &hm_r RCTRL E     &hm_r RALT I   &hm_r RGUI O &kp PT_C_CEDILLA
    &kp NUBS &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp PT_SEMI &td2
-                  &lt MEDIA ESC &lt 1 TAB &lt 3 SPACE   &lt 4 RET &lt 2 BSPC &lt FUNC DEL
+                  &lt MEDIA ESC &kp TAB &lt MOUSE SPACE   &lt WM RET &lt SYM BSPC &lt FUNC DEL
                         >;
                 };
 /*
@@ -44,22 +44,35 @@
                 };
 */
 
-                lower_layer {
-                        display-name = "NAV-NUM";
+                nav_layer {
+                        display-name = "NAV";
 // -----------------------------------------------------------------------------------------
 // |       |     | UP  |     |     |     |   |     |  7  |  8  |  9  |     | BSPC |
 // |       | LFT | DWN | RGT |     |     |   |     |  4  |  5  |  6  |     |      |
 // | BTCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |     |  1  |  2  |  3  |     |      |
 //                     | ESC | TAB | SPC |   | ENT |  0  | DEL |
                         bindings = <
-   &trans    &trans    &kp UP    &trans    &kp HOME    &kp PAGE_UP    &trans   &kp N7   &kp N8 &kp N9    &trans &kp BSPC
-   &trans &kp LEFT   &kp DOWN   &kp RIGHT &kp END   &kp PAGE_DOWN    &trans &kp N4 &kp N5 &kp N6 &trans &trans
-   &trans &trans &trans &trans &trans &trans   &trans   &kp N1   &kp N2 &kp N3    &trans &trans
-                                    &trans     &trans       &trans      &trans  &kp N0   &trans
+   &trans    &trans    &kp UP    &trans    &kp HOME    &kp PAGE_UP    &trans   &trans   &trans &trans    &trans &kp BSPC
+   &trans &kp LEFT   &kp DOWN   &kp RIGHT &kp END   &kp PAGE_DOWN    &trans &trans &trans &trans &trans &trans
+   &trans &trans &trans &trans &trans &trans   &trans   &trans   &trans &trans    &trans &trans
+                                    &trans     &trans       &trans      &trans  &trans   &trans
                         >;
                 };
-
-                raise_layer {
+                number_layer {
+                        display-name = "NUM";
+// -----------------------------------------------------------------------------------------
+// |       |     | UP  |     |     |     |   |     |  7  |  8  |  9  |     | BSPC |
+// |       | LFT | DWN | RGT |     |     |   |     |  4  |  5  |  6  |     |      |
+// | BTCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |     |  1  |  2  |  3  |     |      |
+//                     | ESC | TAB | SPC |   | ENT |  0  | DEL |
+                        bindings = <
+   &trans    &trans    &trans    &trans    &trans    &trans    &trans   &kp N7   &kp N8 &kp N9    &trans &kp BSPC
+   &trans &trans   &trans   &trans &trans   &trans    &trans &kp N4 &kp N5 &kp N6 &trans &trans
+   &trans &trans &trans &trans &trans &trans   &trans   &kp N1   &kp N2 &kp N3    &trans &trans
+                                    &trans     &trans       &trans      &trans  &kp N0   &kp DOT
+                        >;
+                };
+                symbol_layer {
                         display-name = "SYMBOLS";
 // -----------------------------------------------------------------------------------------
 // |   ?  |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
@@ -87,8 +100,8 @@
                              &trans   &trans    &trans   &mkp LCLK   &mkp MCLK    &mkp RCLK
                         >;
                 };
-                m00wm_layer {
-                        display-name = "m00wm";
+                wm_layer {
+                        display-name = "WM";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -102,7 +115,7 @@
                         >;
                 };
                 media_layer {
-                        display-name = "MIXXX";
+                        display-name = "MEDIA";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -123,11 +136,26 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-&trans &trans  &trans  &trans  &trans &trans    &trans  &trans &trans  &trans &trans &trans
-&trans &trans  &trans  &trans  &trans  &trans    &trans  &trans   &trans     &trans  &trans  &trans
-&trans &trans  &trans  &trans  &trans  &trans    &trans  &trans   &trans     &trans  &trans  &trans
+&trans &trans  &kp F7 &kp F8  &kp F9 &kp F10      &kp LS(F10) &kp LS(F7) &kp LS(F8)  &kp LS(F9) &trans &trans
+&trans &trans  &kp F4  &kp F5  &kp F6  &kp F11    &kp LS(F11)  &kp LS(F4)     &kp LS(F5)  &kp LS(F6)  &trans &trans  
+&trans &trans  &kp F1  &kp F2  &kp F3  &kp F12    &kp LS(F12)  &kp LS(F1)     &kp LS(F2)  &kp LS(F3)  &trans  &trans
                                     &trans  &trans  &trans    &trans  &trans  &trans
                         >;
                 };
+
+//                 clean_layer {
+//                         display-name = "CLEAN";
+// // -----------------------------------------------------------------------------------------
+// // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
+// // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+// //                    | GUI |     | SPC |   | ENT |     | ALT |
+//                         bindings = <
+// &trans &trans  &trans  &trans  &trans &trans    &trans  &trans &trans  &trans &trans &trans
+// &trans &trans  &trans  &trans  &trans  &trans    &trans  &trans   &trans     &trans  &trans  &trans
+// &trans &trans  &trans  &trans  &trans  &trans    &trans  &trans   &trans     &trans  &trans  &trans
+//                                     &trans  &trans  &trans    &trans  &trans  &trans
+//                         >;
+//                 };
         };
 };

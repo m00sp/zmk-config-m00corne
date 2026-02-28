@@ -26,9 +26,10 @@
 #define QUICK_TAP_MS 175
 
 #define BASE 0
-#define NUM 1
-#define SYM 2
-#define MOUSE 3
-#define WM 4
-#define MEDIA 5
-#define FUNC 6
+#define NAV 1
+#define NUM 2
+#define SYM 3
+#define MOUSE 4
+#define WM 5
+#define MEDIA 6
+#define FUNC 7
