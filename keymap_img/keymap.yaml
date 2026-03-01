@@ -146,3 +146,13 @@ combos:
 
     Layer'
   l: [BASE, NUM, NAV]
+- p: [14, 13]
+  k: 'WM
+
+    Layer'
+  l: [BASE]
+- p: [21, 22]
+  k: 'Func
+
+    Layer'
+  l: [BASE]

@@ -30,5 +30,19 @@ ZMK_COMBO(mouse, &smart_mouse, LM1 LM2,     BASE NAV NUM, COMBO_TERM_FAST, COMBO
       layers = <BASE NUM NAV>;
       bindings = <&sl 3>;
     };
+    combo_wm_word {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
+      key-positions = <LM3 LM4>;
+      layers = <BASE>;
+      bindings = <&sl 5>;
+    };
+    combo_func_word {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
+      key-positions = <RM3 RM4>;
+      layers = <BASE>;
+      bindings = <&sl 7>;
+    };
   };
 };
