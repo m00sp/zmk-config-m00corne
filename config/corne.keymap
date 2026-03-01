@@ -82,7 +82,7 @@
                         bindings = <
    &kp  PT_SQT &kp PT_EXCL &kp PT_AT &kp PT_HASH &kp PT_DLLR &kp PT_PRCNT   &kp PT_UMLAUT &kp PT_AMPS  &kp PT_ASTRK &kp PT_LPAR &kp PT_RPAR &kp BSPC
    &trans &trans &trans &trans  &trans  &trans	   &kp PT_MINUS &kp PT_EQUAL &kp PT_LT  &kp PT_LBKT &kp PT_RBKT &trans
-   &trans &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp GT  &kp PT_LBRC &kp PT_RBRC &trans
+   &trans &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp GT  &kp PT_LBRC &kp PT_RBRC &inverted_qmark_win
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
