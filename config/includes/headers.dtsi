@@ -20,4 +20,4 @@
 #include "behaviours.dtsi" // My custom behaviours
 #include "settings.dtsi" // My custom settings
 #include "combos.dtsi" // Not in use by now
-//#include "macros.dtsi" // Not in use by now
+#include "macros.dtsi" // Not in use by now

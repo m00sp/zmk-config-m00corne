@@ -1,7 +1,7 @@
 /*
  * Use this file for your macros
  */
-/ w
+/ {
     macros {
         inverted_qmark_win: inverted_qmark_win {
             compatible = "zmk,behavior-macro";

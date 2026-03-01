@@ -219,7 +219,7 @@ parse_config:
     '&bt BT_CLR': {t: '$$bluetooth$$', h: 'CLR'}
     '&magic_shift LSHFT 0': {t: '⇧', h: 'Sticky', s: 'Magic'}
     '&td2': {t: '/', s: '?', h: '¿'}
-    '&inverted_qmark_win': {t: '¿'}
+    # '&inverted_qmark_win': {t: '¿'}
     '&mmv MOVE_LEFT': ◀
     '&mmv MOVE_RIGHT': ►
     '&mmv MOVE_UP': ▲
