@@ -19,9 +19,9 @@ draw_config:
   glyphs: # mapping of glyph name to be used to svg definition
     vol_up: |
       <svg viewBox="2 3 34 33">
-        <path style="stroke: black; fill: black;" d="M23.41,25.25a1,1,0,0,1-.54-1.85,6.21,6.21,0,0,0-.19-10.65,1,1,0,1,1,1-1.73,8.21,8.21,0,0,1,.24,14.06A1,1,0,0,1,23.41,25.25Z"/>
-        <path style="stroke: black; fill: black;" d="M25.62,31.18a1,1,0,0,1-.45-1.89A12.44,12.44,0,0,0,25,6.89a1,1,0,1,1,.87-1.8,14.44,14.44,0,0,1,.24,26A1,1,0,0,1,25.62,31.18Z"/>
-        <path style="stroke: black; fill: black;" d="M18.33,4,9.07,12h-6a1,1,0,0,0-1,1v9.92a1,1,0,0,0,1,1H8.88l9.46,8.24A1,1,0,0,0,20,31.43V4.72A1,1,0,0,0,18.33,4Z"/>
+        <path style="stroke: white; fill: white;" d="M23.41,25.25a1,1,0,0,1-.54-1.85,6.21,6.21,0,0,0-.19-10.65,1,1,0,1,1,1-1.73,8.21,8.21,0,0,1,.24,14.06A1,1,0,0,1,23.41,25.25Z"/>
+        <path style="stroke: white; fill: white;" d="M25.62,31.18a1,1,0,0,1-.45-1.89A12.44,12.44,0,0,0,25,6.89a1,1,0,1,1,.87-1.8,14.44,14.44,0,0,1,.24,26A1,1,0,0,1,25.62,31.18Z"/>
+        <path style="stroke: white; fill: white;" d="M18.33,4,9.07,12h-6a1,1,0,0,0-1,1v9.92a1,1,0,0,0,1,1H8.88l9.46,8.24A1,1,0,0,0,20,31.43V4.72A1,1,0,0,0,18.33,4Z"/>
       </svg>
     bluetooth: |
       <svg viewBox="0 0 24 24">
@@ -226,7 +226,7 @@ parse_config:
     '&td_nav_layer': {t: '⏎', h: 'NAV'}
     '&td_bt_clear': 'BT CLR'
     '&m_type_md_code_block': '```'
-    '&kt LSHFT': "⇧\nLock"
+    '&kp LCAPS': "⇧\nLock"
     '&lt_num_word 4 0': {t: "Num\nWord", h: ''}
     '&ltog LGUI 5': {t: "Cancel\nNav", h: '⌘'}
     '&ltog LGUI 6': {t: "Cancel\nNum", h: '⌘'} 
@@ -337,12 +337,12 @@ parse_config:
     RETURN: '⏎'
     ESCAPE: '⎋'
     C_CEDILLA: 'Ç'
-    C_REWIND: '⏮'
-    C_FAST_FORWARD: '⏭'
-    C_PAUSE: '⏯'
+    C_PREV: '⏮'
+    C_NEXT: '⏭'
+    C_PLAY_PAUSE: '⏯'
     C_MUTE: "VOL\nMUTE"
     C_VOLUME_DOWN: "VOL\nDOWN"
-    C_VOLUME_UP: "VOL\nUP"
+    C_VOLUME_UP: $$vol_up$$
     C_BRIGHTNESS_DEC: '☀↓'
     C_BRIGHTNESS_INC: '☀↑'
     LA(LEFT): ↞
