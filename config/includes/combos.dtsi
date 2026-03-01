@@ -49,7 +49,7 @@ ZMK_COMBO(mouse, &smart_mouse, LM1 LM2,     BASE NAV NUM, COMBO_TERM_FAST, COMBO
       require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
       key-positions = <LM5 LM4>;
       layers = <BASE>;
-      bindings = <&kp LCAPS>;
+      bindings = <&kp CAPSLOCK>;
     };
   };
 };
