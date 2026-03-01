@@ -226,7 +226,7 @@ parse_config:
     '&td_nav_layer': {t: '⏎', h: 'NAV'}
     '&td_bt_clear': 'BT CLR'
     '&m_type_md_code_block': '```'
-    '&kt LSHFT': "⇧\nLock"
+    '&kp LCAPS': "⇧\nLock"
     '&lt_num_word 4 0': {t: "Num\nWord", h: ''}
     '&ltog LGUI 5': {t: "Cancel\nNav", h: '⌘'}
     '&ltog LGUI 6': {t: "Cancel\nNum", h: '⌘'} 
