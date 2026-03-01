@@ -327,6 +327,10 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="728" dy="-0.6em">Func</tspan><tspan x="728" dy="1.2em">Layer</tspan>
 </text>
 </g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="42" y="92" width="28" height="26" class="combo"/>
+<text x="56" y="105" class="combo tap">LCAPS</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-NAV">

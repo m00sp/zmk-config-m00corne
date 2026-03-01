@@ -44,5 +44,12 @@ ZMK_COMBO(mouse, &smart_mouse, LM1 LM2,     BASE NAV NUM, COMBO_TERM_FAST, COMBO
       layers = <BASE>;
       bindings = <&sl 7>;
     };
+    combo_capslock {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
+      key-positions = <LM5 LM4>;
+      layers = <BASE>;
+      bindings = <&kp LCAPS>;
+    };
   };
 };

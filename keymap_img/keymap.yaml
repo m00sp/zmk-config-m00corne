@@ -178,3 +178,6 @@ combos:
 
     Layer'
   l: [BASE]
+- p: [12, 13]
+  k: LCAPS
+  l: [BASE]
