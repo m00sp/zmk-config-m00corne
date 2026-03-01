@@ -968,6 +968,24 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">R</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">
+<tspan x="168" dy="-0.6em">Num</tspan><tspan x="168" dy="1.2em">Layer</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="658" y="74" width="28" height="26" class="combo"/>
+<text x="672" y="88" class="combo tap">
+<tspan x="672" dy="-0.6em">Nav</tspan><tspan x="672" dy="1.2em">Layer</tspan>
+</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="602" y="74" width="28" height="26" class="combo"/>
+<text x="616" y="88" class="combo tap">
+<tspan x="616" dy="-0.6em">Sym</tspan><tspan x="616" dy="1.2em">Layer</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1653)" class="layer-WM">

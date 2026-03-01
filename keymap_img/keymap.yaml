@@ -153,17 +153,17 @@ combos:
   k: 'Num
 
     Layer'
-  l: [BASE, NAV]
+  l: [BASE, NAV, MOUSE]
 - p: [21, 20]
   k: 'Nav
 
     Layer'
-  l: [BASE, NUM]
+  l: [BASE, NUM, MOUSE]
 - p: [19, 20]
   k: 'Sym
 
     Layer'
-  l: [BASE, NUM, NAV]
+  l: [BASE, NUM, NAV, MOUSE]
 - p: [14, 13]
   k: 'WM
 
