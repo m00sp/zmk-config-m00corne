@@ -6,6 +6,14 @@
 </svg>
 
 </svg>
+<svg id="vol_up">
+<svg viewBox="2 3 34 33">
+  <path style="stroke: white; fill: white;" d="M23.41,25.25a1,1,0,0,1-.54-1.85,6.21,6.21,0,0,0-.19-10.65,1,1,0,1,1,1-1.73,8.21,8.21,0,0,1,.24,14.06A1,1,0,0,1,23.41,25.25Z"/>
+  <path style="stroke: white; fill: white;" d="M25.62,31.18a1,1,0,0,1-.45-1.89A12.44,12.44,0,0,0,25,6.89a1,1,0,1,1,.87-1.8,14.44,14.44,0,0,1,.24,26A1,1,0,0,1,25.62,31.18Z"/>
+  <path style="stroke: white; fill: white;" d="M18.33,4,9.07,12h-6a1,1,0,0,0-1,1v9.92a1,1,0,0,0,1,1H8.88l9.46,8.24A1,1,0,0,0,20,31.43V4.72A1,1,0,0,0,18.33,4Z"/>
+</svg>
+
+</svg>
 </defs>/* end glyphs */
 <style>/* font and background color specifications */
 svg {
@@ -1215,9 +1223,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(700, 91)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">{{</tspan><tspan x="0" dy="1.2em">vol_up</tspan><tspan x="0" dy="1.2em">}}</tspan>
-</text>
+<use href="#vol_up" xlink:href="#vol_up" x="-7" y="-7" height="14" width="14.424242424242424" class="key tap glyph vol_up"/>
 </g>
 <g transform="translate(756, 105)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
