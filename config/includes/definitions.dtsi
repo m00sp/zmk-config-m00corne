@@ -21,6 +21,8 @@
 #define COMBO_IDLE_SLOW 50
 #define COMBO_PRIOR_IDLE 100
 
+#define CANCEL	&kp K_CANCEL
+
 /* Global defaults */
 
 #define QUICK_TAP_MS 175

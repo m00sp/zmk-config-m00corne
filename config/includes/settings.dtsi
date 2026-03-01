@@ -16,7 +16,7 @@
 };
 
 &num_word {
-  continue-list = <LEFT UP DOWN RIGHT BSPC DEL DOT COMMA>;
+  continue-list = <LEFT UP DOWN RIGHT BSPC DEL DOT COMMA END HOME PAGE_UP PAGE_DOWN>;
 };
 
 /* Magic-shift & auto-layers */
@@ -41,7 +41,7 @@ ZMK_ADAPTIVE_KEY(
 ZMK_TRI_STATE(
     smart_mouse, bindings = <&tog MOUSE>, <&none>, <&tog MOUSE>;
     ignored-key-positions =
-        <LM1 LM2 LH0 LH1 LH2 RM1 RM2 RM3 RM4 RB1 RB2 RB3 RB4 RH0 RH1 RH2>;
+        <LM1 LM2 RM1 RM2 RM3 RM4 RB1 RB2 RB3 RB4 RH0 RH1 RH2>;
     ignored-layers = <MOUSE NUM FUNC>;)
 //&caps_word { // Mods deactivate caps-word, requires PR #1451. [TODO: rebase]
   ///delete-property/ ignore-modifiers;
