@@ -83,7 +83,7 @@ layers:
     - '['
     - ']'
     - ' '
-  - [' ', ' ', ' ', ' ', ' ', ' ', _, +, '>', '{', '}', ' ']
+  - [' ', ' ', ' ', ' ', ' ', ' ', _, +, '>', '{', '}', ¿]
   - [⌘, ' ', ⎵, ⏎, ' ', ⎇]
   MOUSE:
   - [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
@@ -108,9 +108,7 @@ layers:
   - [' ', ⌘ 0, ' ', ' ', ⌘ ⇧ 0, ' ']
   MEDIA:
   - [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ☀↓, ☀↑, ' ', ' ']
-  - [' ', ' ', ' ', ' ', ' ', ' ', ⏯, ⏮, 'VOL
-
-      DOWN', $$vol_up$$, ⏭, ' ']
+  - [' ', ' ', ' ', ' ', ' ', ' ', ⏯, ⏮, $$vol_minus$$, $$vol_plus$$, ⏭, ' ']
   - - {t: $$bluetooth$$, h: CLR}
     - {t: $$bluetooth$$, h: '0'}
     - {t: $$bluetooth$$, h: '1'}
@@ -118,9 +116,7 @@ layers:
     - {t: $$bluetooth$$, h: '3'}
     - {t: $$bluetooth$$, h: '4'}
     - ' '
-    - 'VOL
-
-      MUTE'
+    - $$vol_mute$$
     - ' '
     - ' '
     - ' '
@@ -157,17 +153,17 @@ combos:
   k: 'Num
 
     Layer'
-  l: [BASE, NAV]
+  l: [BASE, NAV, MOUSE]
 - p: [21, 20]
   k: 'Nav
 
     Layer'
-  l: [BASE, NUM]
+  l: [BASE, NUM, MOUSE]
 - p: [19, 20]
   k: 'Sym
 
     Layer'
-  l: [BASE, NUM, NAV]
+  l: [BASE, NUM, NAV, MOUSE]
 - p: [14, 13]
   k: 'WM
 
