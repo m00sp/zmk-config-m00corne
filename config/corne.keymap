@@ -136,9 +136,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-&trans &trans  &kp F7 &kp F8  &kp F9 &kp F10      &kp LS(F10) &kp LS(F7) &kp LS(F8)  &kp LS(F9) &trans &trans
-&trans &trans  &kp F4  &kp F5  &kp F6  &kp F11    &kp LS(F11)  &kp LS(F4)     &kp LS(F5)  &kp LS(F6)  &trans &trans  
-&trans &trans  &kp F1  &kp F2  &kp F3  &kp F12    &kp LS(F12)  &kp LS(F1)     &kp LS(F2)  &kp LS(F3)  &trans  &trans
+&trans &trans  &kp F7 &kp F8  &kp F9 &kp F10      &trans  &kp LS(F7)  &kp LS(F8)  &kp LS(F9) &kp LS(F10) &trans
+&trans &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans  &kp LS(F4)  &kp LS(F5)  &kp LS(F6)  &kp LS(F11) &trans  
+&trans &trans  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &kp LS(F1)  &kp LS(F2)  &kp LS(F3)  &kp LS(F12)  &trans
                                     &trans  &trans  &trans    &trans  &trans  &trans
                         >;
                 };
