@@ -53,7 +53,7 @@
 //                     | ESC | TAB | SPC |   | ENT |  0  | DEL |
                         bindings = <
    &trans    &trans    &kp UP    &trans    &kp HOME    &kp PAGE_UP    &trans   &trans   &trans &trans    &trans &kp BSPC
-   &trans &kp LEFT   &kp DOWN   &kp RIGHT &kp END   &kp PAGE_DOWN    &trans &trans &trans &trans &trans &trans
+   &trans &kp LEFT   &kp DOWN   &kp RIGHT &kp END   &kp PAGE_DOWN    &trans &td1 &kp RCTRL &kp RALT &kp RGUI &trans
    &trans &trans &trans &trans &trans &trans   &trans   &trans   &trans &trans    &trans &trans
                                     &trans     &trans       &trans      &trans  &trans   &trans
                         >;

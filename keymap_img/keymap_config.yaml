@@ -215,6 +215,7 @@ parse_config:
     '&num_word': 'NUM'
     '&nav_word': 'NAV'
     '&caps_word_capslock': "Caps\nWord"
+    '&td1': '⇪'
     '&caps_word': '⇪'
     '&bt BT_CLR': {t: '$$bluetooth$$', h: 'CLR'}
     '&magic_shift LSHFT 0': {t: '⇧', h: 'Sticky', s: 'Magic'}
