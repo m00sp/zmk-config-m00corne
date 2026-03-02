@@ -53,7 +53,7 @@
 //                     | ESC | TAB | SPC |   | ENT |  0  | DEL |
                         bindings = <
    &trans    &trans    &kp UP    &trans    &kp HOME    &kp PAGE_UP    &trans   &trans   &trans &trans    &trans &kp BSPC
-   &trans &kp LEFT   &kp DOWN   &kp RIGHT &kp END   &kp PAGE_DOWN    &trans &td1 &kp RCTRL &kp RALT &kp RGUI &trans
+   &trans &kp LEFT   &kp DOWN   &kp RIGHT &kp END   &kp PAGE_DOWN    &trans &td1 &kp LCTRL &kp LALT &kp RGUI &trans
    &trans &trans &trans &trans &trans &trans   &trans   &trans   &trans &trans    &trans &trans
                                     &trans     &trans       &trans      &trans  &trans   &trans
                         >;
@@ -67,7 +67,7 @@
 //                     | ESC | TAB | SPC |   | ENT |  0  | DEL |
                         bindings = <
    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &kp N7   &kp N8 &kp N9    &trans &kp BSPC
-   &trans &trans   &trans   &trans &trans   &trans    &trans &kp N4 &kp N5 &kp N6 &trans &trans
+   &trans &kp LGUI   &kp LALT   &kp LCTRL &kp LSHIFT &trans    &trans &kp N4 &kp N5 &kp N6 &trans &trans
    &trans &trans &trans &trans &trans &trans   &trans   &kp N1   &kp N2 &kp N3    &trans &trans
                                     &trans     &trans       &trans      &trans  &kp N0   &kp DOT
                         >;
@@ -95,7 +95,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans &trans  &trans  &trans  &trans &trans    &trans  &trans &trans  &trans &trans &trans
-   &trans &trans &trans  &trans &trans   &trans      &trans &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_UP &mmv MOVE_RIGHT &trans
+   &trans &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT   &trans      &trans &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_UP &mmv MOVE_RIGHT &trans
    &trans &trans &trans  &trans &trans   &trans      &trans &msc SCRL_LEFT &msc SCRL_DOWN  &msc SCRL_UP &msc SCRL_RIGHT &trans
                              &trans   &trans    &trans   &mkp LCLK   &mkp MCLK    &mkp RCLK
                         >;
@@ -137,7 +137,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
 &trans &trans  &kp F7 &kp F8  &kp F9 &kp F10      &kp LS(F10) &kp LS(F7) &kp LS(F8)  &kp LS(F9) &trans &trans
-&trans &trans  &kp F4  &kp F5  &kp F6  &kp F11    &kp LS(F11)  &kp LS(F4)     &kp LS(F5)  &kp LS(F6)  &trans &trans  
+&trans &trans  &kp F4  &kp F5  &kp F6  &kp F11    &kp LS(F11)  &kp LS(F4)     &kp LS(F5)  &hm_r LALT LS(F6)  &trans &trans  
 &trans &trans  &kp F1  &kp F2  &kp F3  &kp F12    &kp LS(F12)  &kp LS(F1)     &kp LS(F2)  &kp LS(F3)  &trans  &trans
                                     &trans  &trans  &trans    &trans  &trans  &trans
                         >;
