@@ -17,6 +17,7 @@
 
 &num_word {
   continue-list = <LEFT UP DOWN RIGHT BSPC DEL DOT COMMA END HOME PAGE_UP PAGE_DOWN>;
+  ignore-modifiers;
 };
 
 /* Magic-shift & auto-layers */
