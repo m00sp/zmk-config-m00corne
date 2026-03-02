@@ -221,6 +221,8 @@ parse_config:
     '&magic_shift LSHFT 0': {t: '⇧', h: 'Sticky', s: 'Magic'}
     '&td2': {t: '/', s: '?', h: '¿'}
     '&inverted_qmark_win': {t: '¿', h: 'Win'}
+    '&inverted_exmark_win': {t: '¡', h: 'Win'}
+    '&uc 0xA1 0': {t: '¡', h: 'Linux'}
     '&mmv MOVE_LEFT': ◀
     '&mmv MOVE_RIGHT': ►
     '&mmv MOVE_UP': ▲
