@@ -31,7 +31,7 @@ Here is a breakdown by layer - powered by
 
 ### Documentation
 
-- [m00corne Reference Manual](https://github.com/m00sp/zmk-config-m00corne/docs/reference/README.md)
+- [m00corne Reference Manual](docs/reference/README.md)
 
 ## Timeless homerow mods
 
