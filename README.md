@@ -29,10 +29,9 @@ Here is a breakdown by layer - powered by
 
 ![my_keymap](keymap_img/keymap.svg)
 
-** Documentation
+### Documentation
 
-# - [[docs/user/][m00corne User Guide]]
-- [[docs/reference/][m00corne Reference Manual]]
+- [m00corne Reference Manual](https://github.com/m00sp/zmk-config-m00corne/docs/reference/README.md)
 
 ## Timeless homerow mods
 
