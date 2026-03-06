@@ -6,35 +6,39 @@ This repository contains my personal [ZMK firmware](https://github.com/zmkfirmwa
 configuration files for	a	42-keys Corne keyboard with a Colemak-dh layout. Inspired by [Miryoku](https://github.com/manna-harbour/miryoku/), [urob's config](https://github.com/urob/zmk-config/) and [Kim's variation](https://github.com/infused-kim/zmk-config).
 
 The configuration currently builds against `v0.3` of upstream ZMK, extended by various [ZMK
-modules](https://github.com/search?q=topic%3Azmk-module+fork%3Atrue+owner%3Aurob+&type=repositories).
-All build dependencies are pinned in this [`west`
-manifest](https://github.com/m00sp/zmk-config-m00corne/blob/master/config/west.yml).
+modules](https://zmk.dev/docs/features/modules). All build dependencies are pinned in the [`west`
+manifest file](https://github.com/m00sp/zmk-config-m00corne/blob/master/config/west.yml).
 
 ## Highlights
 
-- Localized key for Portuguese (Brazil ABNT2). Using [zmk-locales](nttps://github.com/joelspadin/zmk-locales) module.
-- <kbd>¿</kbd> and <kbd>¡</kbd> for Spanish support (Linux and Windows). Using macros and [zmk-unicode](https://github.com/urob/zmk-unicode).
-- ["Timeless" homerow mods](#timeless-homerow-mods)
-- Auto-toggle off numbers, navigation and mouse layers using [zmk-auto-layer](https://github.com/urob/zmk-auto-layer).
-- Magic shift quadrupling as Repeat/Sticky-shift/Capsword/Shift
-- Simpler Devicetree syntax using helper macros from
+- [x] Localization for Portuguese (Brazil ABNT2). Using [zmk-locales](nttps://github.com/joelspadin/zmk-locales) module from @joelspadin.
+- [x] <kbd>¿</kbd> and <kbd>¡</kbd> for Spanish support (Linux and Windows). Using [ZMK macros](https://zmk.dev/docs/keymaps/behaviors/macros) and [zmk-unicode](https://github.com/urob/zmk-unicode) module from @urob.
+- [x] ["Timeless" homerow mods](#timeless-homerow-mods)
+- [x] Auto-toggle off numbers, navigation and mouse layers using [zmk-auto-layer](https://github.com/urob/zmk-auto-layer).
+- [x] Magic shift quadrupling as Repeat/Sticky-shift/Capsword/Shift
+- [x] Simpler Devicetree syntax using helper macros from
   [zmk-helpers](https://github.com/urob/zmk-helpers).
+
+## The keymap
+
+Here is the keymap with the most important layers.
 
 ![](keymap_img/42-keys.png)
 
-Here is a breakdown by layer - powered by
-[keymap-drawer](https://github.com/caksoylar/keymap-drawer).)
-
-## The keymap
+And here is a breakdown by layer - powered by
+[keymap-drawer](https://github.com/caksoylar/keymap-drawer).
 
 ![my_keymap](keymap_img/keymap.svg)
 
 ### Documentation
 
-- [m00corne Reference Manual](docs/reference/README.md)
+For a detail explanation layer by layer go to link below.
+
+- [m00corne User Manual](docs/reference/README.md)
 
 ## Timeless homerow mods
 
+This is from uncle urob:
 [Homerow mods](https://precondition.github.io/home-row-mods) (aka "HRMs") can be a game changer --
 at least in theory. In practice, they require some finicky timing: In its most naive implementation,
 in order to produce a "mod", they must be held _longer_ than `tapping-term-ms`. In order to produce
