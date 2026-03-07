@@ -34,7 +34,7 @@ For a breakdown by layer and a detail explanation layer by layer go to link belo
 
 ### Timeless homerow mods
 
-This is from uncle urob:
+From ZMK docs: "The most popular form of home-row mods is known as "timeless home-row mods", configured to minimize the dependency on timing. Timeless home-row mods define both a "left hand" and a "right hand" behavior".This is from uncle urob:
 [Homerow mods](https://precondition.github.io/home-row-mods) (aka "HRMs") can be a game changer --
 at least in theory. In practice, they require some finicky timing: In its most naive implementation,
 in order to produce a "mod", they must be held _longer_ than `tapping-term-ms`. In order to produce
