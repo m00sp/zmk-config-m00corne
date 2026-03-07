@@ -2,6 +2,9 @@
 
 [![Build ZMK firmware](https://github.com/m00sp/zmk-config-m00corne/actions/workflows/build.yml/badge.svg)](https://github.com/m00sp/zmk-config-m00corne/actions/workflows/build.yml)
 
+![](keymap_img/corne1.jpg)
+![](keymap_img/corne2.jpg)
+
 This repository contains my personal [ZMK firmware](https://github.com/zmkfirmware/zmk/)
 configuration files for	a	42-keys Corne keyboard with a Colemak-dh layout. Inspired by [Miryoku](https://github.com/manna-harbour/miryoku/), [urob's config](https://github.com/urob/zmk-config/) and [Kim's variation](https://github.com/infused-kim/zmk-config).
 
@@ -9,20 +12,24 @@ The configuration currently builds against `v0.3` of upstream ZMK, extended by v
 modules](https://zmk.dev/docs/features/modules). All build dependencies are pinned in the [`west`
 manifest file](https://github.com/m00sp/zmk-config-m00corne/blob/master/config/west.yml).
 
+> [!WARNING]
+>
+> Under **_active development_**. Expect breaking changes and scarce/incomplete documentation.
+
 ## Highlights
 
-- [x] Localization for Portuguese (Brasil-ABNT2). Using [zmk-locales](https://github.com/joelspadin/zmk-locales) module.
+- [x] Localization for Portuguese (Brazil-ABNT2). Using [zmk-locales](https://github.com/joelspadin/zmk-locales) module.
 - [x] <kbd>¿</kbd> and <kbd>¡</kbd> for Spanish support (Linux and Windows). Using [ZMK macros](https://zmk.dev/docs/keymaps/behaviors/macros) and [zmk-unicode](https://github.com/urob/zmk-unicode) module [^1].
 - [x] ["Timeless" homerow mods](#timeless-homerow-mods)
 - [x] Auto-toggle off numbers, navigation and mouse layers using [zmk-auto-layer](https://github.com/urob/zmk-auto-layer).
 - [x] Magic shift quadrupling as Repeat/Sticky-shift/Capsword/Shift
 - [x] Simpler Devicetree syntax using helper macros from [zmk-helpers](https://github.com/urob/zmk-helpers).
 - [x] Vertical widgets for oled displays using [zmk-oled-nice](https://github.com/mctechnology17/zmk-nice-oled).
-- [x] [Combos](https://zmk.dev/docs/config/combos) insted of ["Mod-Tap"](https://zmk.dev/docs/keymaps/behaviors/hold-tap#mod-tap) for layer navigation.
+- [x] [Combos](https://zmk.dev/docs/config/combos) instead of ["Mod-Tap"](https://zmk.dev/docs/keymaps/behaviors/hold-tap#mod-tap) for layer navigation.
 
 ## The keymap
 
-Here is the keymap with the most important layers.
+Here is the keymap with the base, navigation, numbers, mouse and fundtion layers.
 
 ![](keymap_img/42-keys.png)
 
@@ -32,9 +39,15 @@ For a breakdown by layer and a detail explanation layer by layer go to link belo
 
 - [m00corne User Manual](docs/reference/README.md)
 
+## Overview
+
+
+
 ### Timeless homerow mods
 
-From ZMK docs: "The most popular form of home-row mods is known as "timeless home-row mods", configured to minimize the dependency on timing. Timeless home-row mods define both a "left hand" and a "right hand" behavior".This is from uncle urob:
+From ZMK docs:
+> The most popular form of home-row mods is known as "timeless home-row mods", configured to minimize the dependency on timing.
+This is from uncle urob:
 [Homerow mods](https://precondition.github.io/home-row-mods) (aka "HRMs") can be a game changer --
 at least in theory. In practice, they require some finicky timing: In its most naive implementation,
 in order to produce a "mod", they must be held _longer_ than `tapping-term-ms`. In order to produce
