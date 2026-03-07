@@ -11,8 +11,8 @@ manifest file](https://github.com/m00sp/zmk-config-m00corne/blob/master/config/w
 
 ## Highlights
 
-- [x] Localization for Portuguese (Brasil-ABNT2). Using [zmk-locales](nttps://github.com/joelspadin/zmk-locales) module from @joelspadin.
-- [x] <kbd>¿</kbd> and <kbd>¡</kbd> for Spanish support (Linux and Windows). Using [ZMK macros](https://zmk.dev/docs/keymaps/behaviors/macros) and [zmk-unicode](https://github.com/urob/zmk-unicode) module from @urob.
+- [x] Localization for Portuguese (Brasil-ABNT2). Using [zmk-locales](https://github.com/joelspadin/zmk-locales) module.
+- [x] <kbd>¿</kbd> and <kbd>¡</kbd> for Spanish support (Linux and Windows). Using [ZMK macros](https://zmk.dev/docs/keymaps/behaviors/macros) and [zmk-unicode](https://github.com/urob/zmk-unicode) module [^1].
 - [x] ["Timeless" homerow mods](#timeless-homerow-mods)
 - [x] Auto-toggle off numbers, navigation and mouse layers using [zmk-auto-layer](https://github.com/urob/zmk-auto-layer).
 - [x] Magic shift quadrupling as Repeat/Sticky-shift/Capsword/Shift
@@ -42,13 +42,13 @@ a "tap", they must be held _less_ than `tapping-term-ms`. This requires very con
 speeds that, alas, I do not possess. Hence my quest for a "timer-less" HRM setup.
 
 After months of tweaking, I eventually ended up with an HRM setup that is essentially timer-less,
-resulting in virtually no misfires.[^1] Yet it provides a fluent typing experience with mostly no
+resulting in virtually no misfires.[^2] Yet it provides a fluent typing experience with mostly no
 delays.
 
 One way to make HRMs effectively timer-less is to set `tapping-term-ms` to an extremely large value,
 say 5 seconds. This removes the need for quick timing decisions, but it introduces two issues: (1)
 To trigger a mod, you'd need to hold the HRM keys for what feels like an eternity. (2) During normal
-typing, there's a noticeable delay between pressing a key and seeing it appear on the screen.[^2] To
+typing, there's a noticeable delay between pressing a key and seeing it appear on the screen.[^3] To
 address these, I use positive and negative exceptions that short-circuit the tapping term in most
 scenarios.
 
