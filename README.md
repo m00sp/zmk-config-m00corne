@@ -11,13 +11,14 @@ manifest file](https://github.com/m00sp/zmk-config-m00corne/blob/master/config/w
 
 ## Highlights
 
-- [x] Localization for Portuguese (Brazil ABNT2). Using [zmk-locales](nttps://github.com/joelspadin/zmk-locales) module from @joelspadin.
+- [x] Localization for Portuguese (Brasil-ABNT2). Using [zmk-locales](nttps://github.com/joelspadin/zmk-locales) module from @joelspadin.
 - [x] <kbd>¿</kbd> and <kbd>¡</kbd> for Spanish support (Linux and Windows). Using [ZMK macros](https://zmk.dev/docs/keymaps/behaviors/macros) and [zmk-unicode](https://github.com/urob/zmk-unicode) module from @urob.
 - [x] ["Timeless" homerow mods](#timeless-homerow-mods)
 - [x] Auto-toggle off numbers, navigation and mouse layers using [zmk-auto-layer](https://github.com/urob/zmk-auto-layer).
 - [x] Magic shift quadrupling as Repeat/Sticky-shift/Capsword/Shift
-- [x] Simpler Devicetree syntax using helper macros from
-  [zmk-helpers](https://github.com/urob/zmk-helpers).
+- [x] Simpler Devicetree syntax using helper macros from [zmk-helpers](https://github.com/urob/zmk-helpers).
+- [x] Vertical widgets for oled displays using [zmk-oled-nice](https://github.com/mctechnology17/zmk-nice-oled).
+- [x] [Combos](https://zmk.dev/docs/config/combos) insted of ["Mod-Tap"](https://zmk.dev/docs/keymaps/behaviors/hold-tap#mod-tap) for layer navigation.
 
 ## The keymap
 
@@ -25,13 +26,13 @@ Here is the keymap with the most important layers.
 
 ![](keymap_img/42-keys.png)
 
-### Documentation
+## Documentation
 
 For a breakdown by layer and a detail explanation layer by layer go to link below.
 
 - [m00corne User Manual](docs/reference/README.md)
 
-## Timeless homerow mods
+### Timeless homerow mods
 
 This is from uncle urob:
 [Homerow mods](https://precondition.github.io/home-row-mods) (aka "HRMs") can be a game changer --
