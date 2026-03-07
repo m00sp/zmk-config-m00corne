@@ -25,14 +25,9 @@ Here is the keymap with the most important layers.
 
 ![](keymap_img/42-keys.png)
 
-And here is a breakdown by layer - powered by
-[keymap-drawer](https://github.com/caksoylar/keymap-drawer).
-
-![my_keymap](keymap_img/keymap.svg)
-
 ### Documentation
 
-For a detail explanation layer by layer go to link below.
+For a breakdown by layer and a detail explanation layer by layer go to link below.
 
 - [m00corne User Manual](docs/reference/README.md)
 
