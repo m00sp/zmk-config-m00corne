@@ -6,7 +6,7 @@
 ![](keymap_img/corne2.jpg)
 
 This repository contains my personal [ZMK firmware](https://github.com/zmkfirmware/zmk/)
-configuration files for	a	42-keys Corne keyboard with a [Colemak Mod-DH](https://colemakmods.github.io/mod-dh/) layout adaptated for Brazilian Portuguese with full support for Spanish and English languages. Inspired by [Miryoku](https://github.com/manna-harbour/miryoku/), [urob's config](https://github.com/urob/zmk-config/) and [Kim's variation](https://github.com/infused-kim/zmk-config).
+configuration files for	a	42-keys Corne keyboard with a [Colemak Mod-DH](https://colemakmods.github.io/mod-dh/) layout adapted for Brazilian Portuguese with full support for Spanish and English languages. Inspired by [Miryoku](https://github.com/manna-harbour/miryoku/), [urob's config](https://github.com/urob/zmk-config/) and [Kim's variation](https://github.com/infused-kim/zmk-config).
 
 The configuration currently builds against `v0.3` of upstream ZMK, extended by various [ZMK
 modules](https://zmk.dev/docs/features/modules). All build dependencies are pinned in the [`west`
