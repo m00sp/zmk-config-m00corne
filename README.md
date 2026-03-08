@@ -6,7 +6,7 @@
 ![](keymap_img/corne2.jpg)
 
 This repository contains my personal [ZMK firmware](https://github.com/zmkfirmware/zmk/)
-configuration files for	a	42-keys Corne keyboard with a Colemak-dh layout. Inspired by [Miryoku](https://github.com/manna-harbour/miryoku/), [urob's config](https://github.com/urob/zmk-config/) and [Kim's variation](https://github.com/infused-kim/zmk-config).
+configuration files for	a	42-keys Corne keyboard with a [Colemak Mod-DH](https://colemakmods.github.io/mod-dh/) layout adaptated for Brazilian Portuguese with full support for Spanish and English languages. Inspired by [Miryoku](https://github.com/manna-harbour/miryoku/), [urob's config](https://github.com/urob/zmk-config/) and [Kim's variation](https://github.com/infused-kim/zmk-config).
 
 The configuration currently builds against `v0.3` of upstream ZMK, extended by various [ZMK
 modules](https://zmk.dev/docs/features/modules). All build dependencies are pinned in the [`west`
@@ -25,7 +25,7 @@ manifest file](https://github.com/m00sp/zmk-config-m00corne/blob/master/config/w
 - [x] Magic shift quadrupling as Repeat/Sticky-shift/Capsword/Shift
 - [x] Simpler Devicetree syntax using helper macros from [zmk-helpers](https://github.com/urob/zmk-helpers).
 - [x] Vertical widgets for oled displays using [zmk-oled-nice](https://github.com/mctechnology17/zmk-nice-oled).
-- [x] [Combos](https://zmk.dev/docs/config/combos) instead of ["Mod-Tap"](https://zmk.dev/docs/keymaps/behaviors/hold-tap#mod-tap) for layer navigation.
+- [x] [Combos](https://zmk.dev/docs/config/combos) instead of ["Mod-Tap"](https://zmk.dev/docs/keymaps/behaviors/hold-tap#mod-tap) for layer navigation. This is to avoid overloading the thumbs (see overview for an explanation about why I have choose this).
 
 ## The keymap
 
