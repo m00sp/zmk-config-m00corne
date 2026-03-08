@@ -1,4 +1,4 @@
-# m00sp's ZMK Config
+# m👀sp's ZMK Config
 
 [![Build ZMK firmware](https://github.com/m00sp/zmk-config-m00corne/actions/workflows/build.yml/badge.svg)](https://github.com/m00sp/zmk-config-m00corne/actions/workflows/build.yml)
 
