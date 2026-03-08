@@ -25,7 +25,7 @@ manifest file](https://github.com/m00sp/zmk-config-m00corne/blob/master/config/w
 - [x] Magic shift quadrupling as Repeat/Sticky-shift/Capsword/Shift
 - [x] Simpler Devicetree syntax using helper macros from [zmk-helpers](https://github.com/urob/zmk-helpers).
 - [x] Vertical widgets for oled displays using [zmk-oled-nice](https://github.com/mctechnology17/zmk-nice-oled).
-- [x] [Combos](https://zmk.dev/docs/config/combos) instead of ["Mod-Tap"](https://zmk.dev/docs/keymaps/behaviors/hold-tap#mod-tap) for layer navigation. This is to avoid overloading the thumbs (see overview for an explanation about why I have choose this).
+- [x] [Combos](https://zmk.dev/docs/config/combos) instead of ["Mod-Tap"](https://zmk.dev/docs/keymaps/behaviors/hold-tap#mod-tap) for layer navigation. This is to avoid overloading the thumbs (see overview for an explanation about why I have chosen this).
 
 ## The keymap
 
