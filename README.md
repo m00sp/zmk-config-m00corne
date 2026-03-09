@@ -29,18 +29,20 @@ manifest file](https://github.com/m00sp/zmk-config-m00corne/blob/master/config/w
 
 ## The keymap
 
-<details>
+Here is the keymap with some of the layers provided by [keyboard-layout-editor](https://github.com/ijprest/keyboard-layout-editor).
 
-<summary>Here is the keymap with some of the layers provided by [keyboard-layout-editor](https://github.com/ijprest/keyboard-layout-editor).</summary>
+<details>
+<summary>Click Here</summary>
 
 ![](keymap_img/42-keys.png)
 
 </details>
 
-<details>
+Here is the breakdown by layer provided - powered by
+[keymap-drawer](https://github.com/caksoylar/keymap-drawer).
 
-<summary>Here is the breakdown by layer provided - powered by
-[keymap-drawer](https://github.com/caksoylar/keymap-drawer).</summary>
+<details>
+<summary>Click Here</summary>
 
 ## The keymap
 
@@ -50,13 +52,13 @@ manifest file](https://github.com/m00sp/zmk-config-m00corne/blob/master/config/w
 
 ## Documentation
 
-For a breakdown by layer and a detail explanation layer by layer go to link below.
+If you need a explanation layer by layer go to link below.
 
 - [m00corne User Manual](docs/reference/README.md)
 
 ## Overview
 
-
+I ended up with this configuration due to...
 
 ### Timeless homerow mods
 
