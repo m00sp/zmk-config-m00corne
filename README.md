@@ -58,7 +58,7 @@ Here is the breakdown by layer provided - powered by
 
 If you need a explanation layer by layer go to link below.
 
-- [m00corne User Manual](docs/reference/README.md)
+- [m👀corne User Manual](docs/reference/README.md)
 
 ## Overview
 

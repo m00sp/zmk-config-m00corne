@@ -1,4 +1,4 @@
-# m00corne User Manual
+# m👀corne User Manual
 
 Here is a breakdown by layer - powered by
 [keymap-drawer](https://github.com/caksoylar/keymap-drawer).
