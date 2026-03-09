@@ -12,7 +12,7 @@ The configuration currently builds against `v0.3` of upstream ZMK, extended by v
 modules](https://zmk.dev/docs/features/modules). All build dependencies are pinned in the [`west`
 manifest file](https://github.com/m00sp/zmk-config-m00corne/blob/master/config/west.yml).
 
-> [!WARNING]
+> [!NOTE]
 >
 > Under **_active development_**. Expect breaking changes and scarce/incomplete documentation.
 
@@ -27,21 +27,42 @@ manifest file](https://github.com/m00sp/zmk-config-m00corne/blob/master/config/w
 - [x] Vertical widgets for oled displays using [zmk-oled-nice](https://github.com/mctechnology17/zmk-nice-oled).
 - [x] [Combos](https://zmk.dev/docs/config/combos) instead of ["Mod-Tap"](https://zmk.dev/docs/keymaps/behaviors/hold-tap#mod-tap) for layer navigation. This is to avoid overloading the thumbs (see overview for an explanation about why I have chosen this).
 
+> [!WARNING]
+>
+> Under **_Linux_**. You need IBus installed in your system to use <kbd>¿</kbd> and <kbd>¡</kbd>.
+
 ## The keymap
 
-Here is the keymap with the base, navigation, numbers, mouse and fundtion layers.
+Here is the keymap with some of the layers provided by [keyboard-layout-editor](https://github.com/ijprest/keyboard-layout-editor).
+
+<details>
+<summary>Click Here</summary>
 
 ![](keymap_img/42-keys.png)
 
+</details>
+
+Here is the breakdown by layer provided - powered by
+[keymap-drawer](https://github.com/caksoylar/keymap-drawer).
+
+<details>
+<summary>Click Here</summary>
+
+## The keymap
+
+![my_keymap](keymap_img/keymap.svg)
+
+</details>
+
 ## Documentation
 
-For a breakdown by layer and a detail explanation layer by layer go to link below.
+If you need a explanation layer by layer go to link below.
 
 - [m00corne User Manual](docs/reference/README.md)
 
 ## Overview
 
-
+I ended up with this configuration due to...
 
 ### Timeless homerow mods
 
