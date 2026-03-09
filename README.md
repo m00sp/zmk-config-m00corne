@@ -29,9 +29,24 @@ manifest file](https://github.com/m00sp/zmk-config-m00corne/blob/master/config/w
 
 ## The keymap
 
-Here is the keymap with the base, navigation, numbers, mouse and fundtion layers.
+<details>
+
+<summary>Here is the keymap with some of the layers provided by [keyboard-layout-editor](https://github.com/ijprest/keyboard-layout-editor).</summary>
 
 ![](keymap_img/42-keys.png)
+
+</details>
+
+<details>
+
+<summary>Here is the breakdown by layer provided - powered by
+[keymap-drawer](https://github.com/caksoylar/keymap-drawer).</summary>
+
+## The keymap
+
+![my_keymap](keymap_img/keymap.svg)
+
+</details>
 
 ## Documentation
 
