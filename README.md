@@ -18,18 +18,18 @@ manifest file](https://github.com/m00sp/zmk-config-m00corne/blob/master/config/w
 
 ## Highlights
 
-- [x] Localization for Portuguese (Brazil-ABNT2). Using [zmk-locales](https://github.com/joelspadin/zmk-locales) module.
-- [x] <kbd>¿</kbd> and <kbd>¡</kbd> for Spanish support (Linux and Windows). Using [ZMK macros](https://zmk.dev/docs/keymaps/behaviors/macros) and [zmk-unicode](https://github.com/urob/zmk-unicode) module [^1].
-- [x] ["Timeless" homerow mods](#timeless-homerow-mods)
-- [x] Auto-toggle off numbers, navigation and mouse layers using [zmk-auto-layer](https://github.com/urob/zmk-auto-layer).
-- [x] Magic shift quadrupling as Repeat/Sticky-shift/Capsword/Shift
-- [x] Simpler Devicetree syntax using helper macros from [zmk-helpers](https://github.com/urob/zmk-helpers).
-- [x] Vertical widgets for oled displays using [zmk-oled-nice](https://github.com/mctechnology17/zmk-nice-oled).
-- [x] [Combos](https://zmk.dev/docs/config/combos) instead of ["Mod-Tap"](https://zmk.dev/docs/keymaps/behaviors/hold-tap#mod-tap) for layer navigation. This is to avoid overloading the thumbs (see overview for an explanation about why I have chosen this).
+- ✅ Localization for Portuguese (Brazil-ABNT2). Using [zmk-locales](https://github.com/joelspadin/zmk-locales) module.
+- ✅ <kbd>¿</kbd> and <kbd>¡</kbd> for Spanish support (Linux and Windows). Using [ZMK macros](https://zmk.dev/docs/keymaps/behaviors/macros) and [zmk-unicode](https://github.com/urob/zmk-unicode) module [^1].
+- ✅ ["Timeless" homerow mods](#timeless-homerow-mods)
+- ✅ Auto-toggle off numbers, navigation and mouse layers using [zmk-auto-layer](https://github.com/urob/zmk-auto-layer).
+- ✅ Magic shift quadrupling as Repeat/Sticky-shift/Capsword/Shift
+- ✅ Simpler Devicetree syntax using helper macros from [zmk-helpers](https://github.com/urob/zmk-helpers).
+- ✅ Vertical widgets for oled displays using [zmk-oled-nice](https://github.com/mctechnology17/zmk-nice-oled).
+- ✅ [Combos](https://zmk.dev/docs/config/combos) instead of ["Mod-Tap"](https://zmk.dev/docs/keymaps/behaviors/hold-tap#mod-tap) for layer navigation. This is to avoid overloading the thumbs (see overview for an explanation about why I have chosen this).
 
 > [!WARNING]
 >
-> Under **_Linux_**. You need IBus installed in your system to use <kbd>¿</kbd> and <kbd>¡</kbd>.
+> **Linux Users** needs IBus installed and configured in your system in order to use <kbd>¿</kbd> and <kbd>¡</kbd>.
 
 ## The keymap
 
