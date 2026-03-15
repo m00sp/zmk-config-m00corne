@@ -10,7 +10,7 @@ Uma configuração profissional de firmware ZMK para o teclado Corne de 42 tecla
 
 > [!NOTE]
 >
-> **Em desenvolvimento ativo**. As configurações podem mudar. Consulte o [Manual do Usuário](docs/reference/README.md) para documentação detalhada.
+> **Em desenvolvimento ativo**. As configurações podem mudar. Consulte o [Manual do Usuário](docs/reference/README.pt-BR.md) para documentação detalhada.
 
 ## Início Rápido
 
