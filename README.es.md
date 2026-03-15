@@ -1,4 +1,4 @@
-# Configuración ZMK de m👀sp
+r Configuración ZMK de m👀sp
 
 [![Compilar firmware ZMK](https://github.com/m00sp/zmk-config-m00corne/actions/workflows/build.yml/badge.svg)](https://github.com/m00sp/zmk-config-m00corne/actions/workflows/build.yml)
 [![en](https://img.shields.io/badge/English-380000?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/zmk-config-m00corne/blob/master/README.md) [![es](https://img.shields.io/badge/Español-EB5406?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/zmk-config-m00corne/blob/master/README.es.md) [![br](https://img.shields.io/badge/Português-380000?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/zmk-config-m00corne/blob/master/README.pt-BR.md)
@@ -10,7 +10,7 @@ Una configuración profesional de firmware ZMK para el teclado Corne de 42 tecla
 
 > [!NOTE]
 >
-> **En desarrollo activo**. Las configuraciones pueden cambiar. Consulta el [Manual del Usuario](docs/reference/README.md) para documentación detallada.
+> **En desarrollo activo**. Las configuraciones pueden cambiar. Consulta el [Manual del Usuario](docs/reference/README.es.md) para documentación detallada.
 
 ## Inicio Rápido
 
