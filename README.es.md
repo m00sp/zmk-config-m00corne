@@ -71,7 +71,7 @@ Aquí está el desglose completo del mapa de teclas por capa, generado por [keym
 
 ## Documentación
 
-Para documentación detallada capa por capa y explicaciones de configuración, consulta el [Manual del Usuario](docs/reference/README.md).
+Para documentación detallada capa por capa y explicaciones de configuración, consulta el [Manual del Usuario](docs/reference/README.es.md).
 
 ## Filosofía de Diseño
 

@@ -71,7 +71,7 @@ Aqui está a descrição completa do mapa de teclas por camada, gerada por [keym
 
 ## Documentação
 
-Para documentação detalhada de cada camada e explicações de configuração, consulte o [Manual do Usuário](docs/reference/README.md).
+Para documentação detalhada de cada camada e explicações de configuração, consulte o [Manual do Usuário](docs/reference/README.pt-BR.md).
 
 ## Filosofia de Design
 
