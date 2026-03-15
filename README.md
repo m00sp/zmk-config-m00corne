@@ -1,6 +1,9 @@
 # m👀sp's ZMK Config
 
 [![Build ZMK firmware](https://github.com/m00sp/zmk-config-m00corne/actions/workflows/build.yml/badge.svg)](https://github.com/m00sp/zmk-config-m00corne/actions/workflows/build.yml)
+[![en](https://img.shields.io/badge/English-EB5406?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/zmk-config-m00corne/blob/main/README.md) [![es](https://img.shields.io/badge/Español-380000?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/zmk-config-m00corne/blob/main/README.es.md) [![br](https://img.shields.io/badge/Português-380000?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/zmk-config-m00corne/blob/main/README.pt-BR.md)
+
+</div>
 
 ![Corne Keyboard - Front](keymap_img/corne1.jpg)
 ![Corne Keyboard - Side](keymap_img/corne2.jpg)
