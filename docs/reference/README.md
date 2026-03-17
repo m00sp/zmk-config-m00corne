@@ -7,15 +7,18 @@ This guide explains each layer and how to access them using keyboard combos. Key
 
 ---
 
-## How layers work
+<details>
+<summary>How layers work<summary>
 
 Your m👀corne uses keyboard combos (pressing two keys simultaneously) to activate layers. This keeps your hands near the home row instead of reaching for layer keys.
 
-Combo-based layers (press two keys together, then release). Useful for quick layer access without holding. Support autolayer functionality (intelligent auto-deactivation for NAV, NUM, MOUSE)
+Useful for quick layer access without holding. Support autolayer functionality (intelligent auto-deactivation for NAV, NUM, MOUSE).
 
 The only hold-based layer is MEDIA: Hold left `ESC` key to activate and use media controls, brightness, and Bluetooth.
 
 Combine layers with modifiers (Shift, Ctrl, Alt, Cmd) for advanced key combinations.
+
+</details>
 
 ---
 
@@ -33,7 +36,7 @@ This is your main typing layer using Colemak Mod-DH, an efficient, ergonomic let
 
 ![my_keymap](../../keymap_img/keymap_nav.svg)
 
-Activate this layer by pressing **LM3 + LM2** together (left middle keys). The NAV layer uses autolayer technology, which means it automatically exits after a short idle period—you don't need to explicitly turn it off.
+Activate this layer by pressing `E` + `I` together (left middle keys). The NAV layer uses autolayer technology, which means it automatically exits after a short idle period—you don't need to explicitly turn it off.
 
 **How autolayer works:** Hold the NAV layer while editing, then release. The layer stays active for another keystroke or two, then exits automatically. Use this to select words or move through text without re-activating the layer.
 
@@ -43,7 +46,7 @@ Activate this layer by pressing **LM3 + LM2** together (left middle keys). The N
 
 ![my_keymap](../../keymap_img/keymap_num.svg)
 
-Activate this layer by pressing **LM3 + LM2** together a second time (double-tap the same combo). The NUM layer uses autolayer, so it automatically exits after you finish typing numbers—no manual layer management needed.
+Activate this layer by pressing `R` + `S` together a second time (double-tap the same combo). The NUM layer uses autolayer, so it automatically exits after you finish typing numbers—no manual layer management needed.
 
 **Left-side modifiers are available** while typing numbers, so you can create combinations like `Shift+9` (opening parenthesis) without awkward hand positions.
 
@@ -53,7 +56,7 @@ Activate this layer by pressing **LM3 + LM2** together a second time (double-tap
 
 ![my_keymap](../../keymap_img/keymap_sym.svg)
 
-Activate this layer by pressing **RM1 + RM2** together (right middle keys). This is a one-time activation for quick symbol entry.
+Activate this layer by pressing `N` + `E`  together (right middle keys). This is a one-time activation for quick symbol entry.
 
 These are already shifted versions. Type them directly without holding Shift.
 
@@ -63,7 +66,7 @@ These are already shifted versions. Type them directly without holding Shift.
 
 ![my_keymap](../../keymap_img/keymap_mouse.svg)
 
-Activate this layer by pressing **LM1 + LM2** together (left hand, outer middle keys). The MOUSE layer uses autolayer technology for intuitive mouse control that automatically exits when you're done.
+Activate this layer by pressing `S` + `T` together (left hand, outer middle keys). The MOUSE layer uses autolayer technology for intuitive mouse control that automatically exits when you're done.
 
 **How it works:** Use the mouse layer for precise control, then release. The layer automatically exits when you're done, making it feel like a natural extension of your typing.
 
@@ -73,7 +76,7 @@ Activate this layer by pressing **LM1 + LM2** together (left hand, outer middle 
 
 ![my_keymap](../../keymap_img/keymap_wm.svg)
 
-Activate this layer by pressing **LM3 + LM4** together (left hand, lower-middle keys). This is a one-time activation for window snapping.
+Activate this layer by pressing `A` + `R` together (left hand, lower-middle keys). This is a one-time activation for window snapping.
 
 **Note:** Shortcuts use `Cmd+Number` combinations designed for macOS window management apps. Customize these key combinations if you use a different operating system.
 
@@ -97,7 +100,7 @@ Activate this layer by holding the left `ESC` key. Control media playback, volum
 
 ![my_keymap](../../keymap_img/keymap_func.svg)
 
-Activate this layer by pressing **RM3 + RM4** together (right hand, lower-middle keys). This is a one-time activation for function key access.
+Activate this layer by pressing `I` + `O` together (right hand, lower-middle keys). This is a one-time activation for function key access.
 
 Use function keys for application shortcuts, system functions, or gaming macros.
 
