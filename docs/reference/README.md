@@ -8,7 +8,7 @@ This guide explains each layer and how to access them using keyboard combos. Key
 ---
 
 <details>
-<summary>How layers work<summary>
+<summary>How layers work</summary>
 
 Your m👀corne uses keyboard combos (pressing two keys simultaneously) to activate layers. This keeps your hands near the home row instead of reaching for layer keys.
 
