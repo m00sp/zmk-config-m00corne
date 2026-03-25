@@ -42,6 +42,6 @@ manifest:
       revision: v0.3 # Should match ZMK release.
     - name: urchin-peripheral-animation
       remote: gpeye
-      revision: v0.3
+      revision: main
   self:
     path: config
