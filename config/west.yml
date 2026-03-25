@@ -10,8 +10,6 @@ manifest:
       url-base: https://github.com/urob
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
-    - name: gpeye
-      url-base: https://github.com/GPeye
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -40,8 +38,5 @@ manifest:
     - name: zmk-tri-state
       remote: urob
       revision: v0.3 # Should match ZMK release.
-    - name: urchin-peripheral-animation
-      remote: gpeye
-      revision: main
   self:
     path: config
