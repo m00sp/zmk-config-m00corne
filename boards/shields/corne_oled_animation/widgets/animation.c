@@ -5,7 +5,7 @@
 
 #include "animation.h"
 #include <zephyr/kernel.h>
-#include "util.h"
+#include <zephyr/sys/util.h>
 
 // Frame array (ordered)
 static const lv_img_dsc_t *animation_frames[ANIMATION_FRAME_COUNT] = {
