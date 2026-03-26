@@ -8,8 +8,10 @@ manifest:
       url-base: https://github.com/joelspadin
     - name: urob
       url-base: https://github.com/urob
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
+    # - name: mctechnology17
+    #   url-base: https://github.com/mctechnology17
+    - name: zzuse
+      url-base: https://github.com/zzuse
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -29,8 +31,10 @@ manifest:
     - name: zmk-auto-layer
       remote: urob
       revision: v0.3.0
-    - name: zmk-nice-oled
-      remote: mctechnology17
+    # - name: zmk-nice-oled
+    #   remote: mctechnology17
+    - name: zmk-nice-oled-zz
+      remote: zzuse
       revision: main
     - name: zmk-adaptive-key
       remote: urob
