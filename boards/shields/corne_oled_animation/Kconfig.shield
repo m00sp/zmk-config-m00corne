@@ -1,9 +1,0 @@
-config SHIELD_CORNE_OLED_ANIMATION
-    def_bool $(shields_list_contains,corne_oled_animation)
-    select LVGL
-    select ZMK_DISPLAY
-
-config CORNE_OLED_ANIMATION_ENABLED
-    bool "Enable Urchin peripheral animation"
-    depends on SHIELD_CORNE_OLED_ANIMATION
-    default y
