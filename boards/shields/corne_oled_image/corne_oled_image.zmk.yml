@@ -1,0 +1,7 @@
+file_format: "1"
+id: corne_oled_image
+name: Corne OLED Image
+type: shield
+requires: [corne_left, corne_right]
+features:
+  - display

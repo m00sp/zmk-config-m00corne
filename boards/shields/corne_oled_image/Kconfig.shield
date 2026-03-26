@@ -1,0 +1,4 @@
+config SHIELD_CORNE_OLED_IMAGE
+    def_bool $(shields_list_contains,corne_oled_image)
+    select LVGL
+    select ZMK_DISPLAY

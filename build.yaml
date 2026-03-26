@@ -20,8 +20,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: corne_left corne_oled_animation
+    shield: corne_left corne_nice_oled
   - board: nice_nano_v2 
-    shield: corne_right corne_oled_animation
+    shield: corne_right corne_oled_image
   - board: nice_nano_v2
     shield: settings_reset
