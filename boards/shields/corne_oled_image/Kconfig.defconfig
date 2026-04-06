@@ -1,0 +1,9 @@
+if SHIELD_CORNE_OLED_IMAGE
+
+config LVGL
+    default y
+
+config ZMK_DISPLAY
+    default y
+
+endif
