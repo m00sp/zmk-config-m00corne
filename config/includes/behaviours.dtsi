@@ -148,8 +148,8 @@
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap";
         };
-        kscan: kscan {
-            compatible = "zmk,kscan-gpio-matrix";
-            wakeup-source;
+          //kscan: kscan {
+              //compatible = "zmk,kscan-gpio-matrix";
+              //wakeup-source;
         };
 };
