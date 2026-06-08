@@ -151,6 +151,5 @@
         kscan: kscan {
             compatible = "zmk,kscan-gpio-matrix";
             wakeup-source;
-            ...
         };
 };
