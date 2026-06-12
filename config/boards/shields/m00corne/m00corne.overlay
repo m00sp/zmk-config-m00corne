@@ -26,27 +26,6 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6)  RC(2,7) RC(2,8) RC(2,9
 	};
 
 	// LED layout
-	led_layout: led_layout {
-		compatible = "zmk,led-layout";
-		
-		// Định nghĩa 54 LED positions
-		leds = <
-			// Left side underglow (6 LEDs)
-			LED_UG_L1 LED_UG_L2 LED_UG_L3 LED_UG_L4 LED_UG_L5 LED_UG_L6
-			// Left side per-key (21 LEDs)  
-			LED_L1 LED_L2 LED_L3 LED_L4 LED_L5 LED_L6
-			LED_L7 LED_L8 LED_L9 LED_L10 LED_L11 LED_L12
-			LED_L13 LED_L14 LED_L15 LED_L16 LED_L17 LED_L18
-			LED_L19 LED_L20 LED_L21
-			// Right side underglow (6 LEDs)
-			LED_UG_R1 LED_UG_R2 LED_UG_R3 LED_UG_R4 LED_UG_R5 LED_UG_R6
-			// Right side per-key (21 LEDs)
-			LED_R1 LED_R2 LED_R3 LED_R4 LED_R5 LED_R6
-			LED_R7 LED_R8 LED_R9 LED_R10 LED_R11 LED_R12
-			LED_R13 LED_R14 LED_R15 LED_R16 LED_R17 LED_R18
-			LED_R19 LED_R20 LED_R21
-		>;
-	};
 
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
