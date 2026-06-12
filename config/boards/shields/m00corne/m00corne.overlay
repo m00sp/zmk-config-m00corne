@@ -11,6 +11,7 @@
 		zmk,kscan = &kscan0;
 		zmk,matrix_transform = &default_transform;
 		zmk,underglow = &led_strip;
+		mmk,backlight = &backlight;
 	};
 
 	default_transform: keymap_transform_0 {
