@@ -11,7 +11,7 @@
 //		zmk,kscan = &kscan0;
 //		zmk,matrix_transform = &default_transform;
 		zmk,underglow = &led_strip;
-		zmk,backlight = &backlight;
+	//	zmk,backlight = &backlight;
 	};
 
 	//Adefault_transform: keymap_transform_0 {
@@ -50,12 +50,12 @@
 			//;
 	//};
 //
-	backlight: pwmleds {
-  		compatible = "pwm-leds";
-  		pwm_led_0 {
-  				pwms = <&pwm0 0 PWM_MSEC(10) PWM_POLARITY_NORMAL>;
-  		};
-	};
+//	backlight: pwmleds {
+  	//	compatible = "pwm-leds";
+  //		pwm_led_0 {
+  	//			pwms = <&pwm0 0 PWM_MSEC(10) PWM_POLARITY_NORMAL>;
+  //		};
+//	};
 
 //&pinctrl {
     //spi3_default: spi3_default {
