@@ -20,8 +20,13 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: corne_left nice_oled m00corne
+    shield: m00corne_left nice_oled
   - board: nice_nano_v2 
-    shield: corne_right nice_oled m00corne
+    shield: m00corne_right nice_oled
+    
+  - board: nice_nano_v2
+    shield: corne_left nice_oled
+  - board: nice_nano_v2 
+    shield: corne_right nice_oled
   - board: nice_nano_v2
     shield: settings_reset
