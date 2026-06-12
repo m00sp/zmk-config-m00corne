@@ -49,6 +49,13 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6)  RC(2,7) RC(2,8) RC(2,9
 			, <&pro_micro 14 GPIO_ACTIVE_HIGH>
 			;
 	};
+
+	backlight: pwmleds {
+  	compatible = "pwm-leds";
+  	pwm_led_0 {
+    		pwms = <&pwm0 0 PWM_MSEC(10) PWM_POLARITY_NORMAL>;
+  	};
+	};
 };
 
 
