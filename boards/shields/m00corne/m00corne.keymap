@@ -1,0 +1,161 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+// Personal headers
+#include "includes/headers.dtsi"
+
+
+/ {
+
+        keymap {
+                compatible = "zmk,keymap";
+
+
+                default_layer {
+                        display-name = "BASE";
+// -----------------------------------------------------------------------------------------
+// |   `  |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ~  |  ´  |
+// | Caps |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  Ç  |
+// |   '  |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  ;  |  "  |
+//                    | ESC | TAB | SPC |   | ENT | BSPC | DEL |
+                        bindings = <
+   &kp PT_SQT &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp PT_TILDE    &kp PT_ACUTE
+   &magic_shift	LSHFT	0 &hm_l LGUI A &hm_l LALT R &hm_l LCTRL S &hm_shift_l LSHIFT T &kp G   &kp M &hm_shift_r RSHIFT N  &hm_r RCTRL E     &hm_r RALT I   &hm_r RGUI O &kp PT_C_CEDILLA
+   &kp NUBS &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp PT_SEMI &td2
+                  &lt MEDIA ESC &kp TAB &kp SPACE   &kp RET &kp BSPC &kp DEL
+                        >;
+                };
+/*
+                default_layer {
+                        display-name = "QWERTY";
+// -----------------------------------------------------------------------------------------
+// |   `  |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ~  |  ´  |
+// | Caps |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  Ç  |
+// |   '  |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  ;  |  "  |
+//                    | ESC | TAB | SPC |   | ENT | BSPC | DEL |
+                        bindings = <
+   &kp GRAVE   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp LBKT
+   &caps_word &mt LGUI A &mt LALT S &mt LCTRL D &mt LSHIFT F &kp G   &kp H &mt RSHIFT J  &mt RCTRL K     &mt RALT L   &mt RGUI SEMI &kp SQT
+   &kp BSLH &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp TILDE
+                  &kp ESC &lt 1 SPACE &lt 3 TAB   &lt 4 RET &lt 2 BSPC &mt LALT DEL
+                        >;
+                };
+*/
+
+                nav_layer {
+                        display-name = "NAV";
+// -----------------------------------------------------------------------------------------
+// |       |     | UP  |     |     |     |   |     |  7  |  8  |  9  |     | BSPC |
+// |       | LFT | DWN | RGT |     |     |   |     |  4  |  5  |  6  |     |      |
+// | BTCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |     |  1  |  2  |  3  |     |      |
+//                     | ESC | TAB | SPC |   | ENT |  0  | DEL |
+                        bindings = <
+   &trans    &trans    &kp UP    &trans    &kp HOME    &kp PAGE_UP    &trans   &trans   &trans &trans    &trans &kp BSPC
+   &trans &kp LEFT   &kp DOWN   &kp RIGHT &kp END   &kp PAGE_DOWN    &trans &td1 &kp LCTRL &kp LALT &kp RGUI &trans
+   &trans &trans &trans &trans &trans &trans   &trans   &trans   &trans &trans    &trans &trans
+                                    CANCEL     &trans       &trans      &trans  &trans   &trans
+                        >;
+                };
+                number_layer {
+                        display-name = "NUM";
+// -----------------------------------------------------------------------------------------
+// |       |     | UP  |     |     |     |   |     |  7  |  8  |  9  |     | BSPC |
+// |       | LFT | DWN | RGT |     |     |   |     |  4  |  5  |  6  |     |      |
+// | BTCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |     |  1  |  2  |  3  |     |      |
+//                     | ESC | TAB | SPC |   | ENT |  0  | DEL |
+                        bindings = <
+   &trans    &trans    &trans    &trans    &trans    &trans    &trans   &kp N7   &kp N8 &kp N9    &trans &kp BSPC
+   &trans &kp LGUI   &kp LALT   &kp LCTRL &kp LSHIFT &trans    &trans &kp N4 &kp N5 &kp N6 &trans &trans
+   &trans &trans &trans &trans &trans &trans   &trans   &kp N1   &kp N2 &kp N3    &trans &trans
+                                    CANCEL     &trans       &trans      &trans  &kp N0   &kp DOT
+                        >;
+                };
+                symbol_layer {
+                        display-name = "SYMBOLS";
+// -----------------------------------------------------------------------------------------
+// |   ?  |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+   &kp  PT_SQT &kp PT_EXCL &kp PT_AT &kp PT_HASH &kp PT_DLLR &kp PT_PRCNT   &kp PT_UMLAUT &kp PT_AMPS  &kp PT_ASTRK &kp PT_LPAR &kp PT_RPAR &kp BSPC
+   &trans &uc 0xA1 0 &trans &trans  &trans  &trans	   &kp PT_MINUS &kp PT_EQUAL &kp PT_LT  &kp PT_LBKT &kp PT_RBKT &inverted_exmark_win
+   &trans &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp GT  &kp PT_LBRC &kp PT_RBRC &inverted_qmark_win
+                             &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+                        >;
+                };
+                mouse_layer {
+                        display-name = "MOUSE";
+// -----------------------------------------------------------------------------------------
+// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+   &trans &trans  &trans  &trans  &trans &trans    &trans  &trans &trans  &trans &trans &trans
+   &trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT CANCEL      CANCEL &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_UP &mmv MOVE_RIGHT &trans
+   &trans &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_UP &msc SCRL_RIGHT &trans      &trans &msc SCRL_LEFT &msc SCRL_DOWN  &msc SCRL_UP &msc SCRL_RIGHT &trans
+                             &mkp LCLK &mkp MCLK &mkp RCLK   &mkp LCLK   &mkp MCLK    &mkp RCLK
+                        >;
+                };
+                wm_layer {
+                        display-name = "WM";
+// -----------------------------------------------------------------------------------------
+// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+&bootloader &trans  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &trans    &trans  &kp LG(LS(N7))  &kp LG(LS(N8))  &kp LG(LS(N9)) &trans  &bootloader
+&sys_reset &trans  &kp LG(N4)  &kp LG(N5)  &kp LG(N6)  &trans    &trans  &kp LG(LS(N4))    &kp LG(LS(N5))     &kp LG(LS(N6))  &trans  &sys_reset
+&trans  &trans  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &trans    &trans  &kp LG(LS(N1))  &kp LG(LS(N2))  &kp LG(LS(N3))  &trans  &trans
+                                    &trans  &kp LG(N0) &trans    &trans  &kp LG(LS(N0))  &trans
+                        >;
+                };
+                media_layer {
+                        display-name = "MEDIA";
+// -----------------------------------------------------------------------------------------
+// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+&trans &trans  &trans  &trans  &trans &trans    &trans &trans &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC &trans &trans
+&trans &trans  &trans  &trans  &trans  &trans    &kp C_PLAY_PAUSE  &kp C_PREV   &kp C_VOLUME_DOWN     &kp C_VOLUME_UP  &kp C_NEXT &trans
+&bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &trans  &kp C_MUTE	&trans  &trans  &trans  &trans
+                                    &trans  &trans  &trans    &trans  &trans  &trans
+                        >;
+                };
+                function_layer {
+                        display-name = "FUNC";
+// -----------------------------------------------------------------------------------------
+// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+&trans &trans  &kp F7 &kp F8  &kp F9 &kp F10      &trans  &kp LS(F7)  &kp LS(F8)  &kp LS(F9) &kp LS(F10) &trans
+&trans &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans  &kp LS(F4)  &kp LS(F5)  &kp LS(F6)  &kp LS(F11) &trans  
+&trans &trans  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &kp LS(F1)  &kp LS(F2)  &kp LS(F3)  &kp LS(F12)  &trans
+                                    &trans  &trans  &trans    &trans  &trans  &trans
+                        >;
+                };
+
+//                 clean_layer {
+//                         display-name = "CLEAN";
+// // -----------------------------------------------------------------------------------------
+// // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
+// // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+// //                    | GUI |     | SPC |   | ENT |     | ALT |
+//                         bindings = <
+// &trans &trans  &trans  &trans  &trans &trans    &trans  &trans &trans  &trans &trans &trans
+// &trans &trans  &trans  &trans  &trans  &trans    &trans  &trans   &trans     &trans  &trans  &trans
+// &trans &trans  &trans  &trans  &trans  &trans    &trans  &trans   &trans     &trans  &trans  &trans
+//                                     &trans  &trans  &trans    &trans  &trans  &trans
+//                         >;
+//                 };
+        };
+};
