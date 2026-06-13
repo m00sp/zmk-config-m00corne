@@ -1,0 +1,50 @@
+// Make sure this file is included before all other files except definitions.dtsi
+
+/*
+ *		Use this file to overide that need to be sourced outside the root node
+ */
+
+/*
+ * Unicode settings
+ */
+
+&uc {
+  default-mode = <UC_MODE_LINUX>;  // Default to Linux input system
+  minimum-length = <0>;            // Set to desired minimum input length
+  linux-key = <LC(LS(U))>;         // Overwrite Linux compose key
+  win-compose-key = <RALT>;        // Overwrite WinCompose compose key
+};
+
+&num_word {
+  continue-list = <LEFT UP DOWN RIGHT BSPC DEL DOT COMMA END HOME PAGE_UP PAGE_DOWN>;
+  ignore-modifiers;
+};
+
+/* Magic-shift & auto-layers */
+
+// Tap: repeat after alpha, else sticky-shift |
+// Shift + tap/ double-tap: caps-word | Hold: shift.
+//#define MAGIC_SHIFT &magic_shift LSHFT 0
+ZMK_HOLD_TAP(magic_shift, bindings = <&kp>, <&magic_shift_tap>;
+             flavor = "balanced"; tapping-term-ms = <200>;
+             quick-tap-ms = <QUICK_TAP_MS>;)
+ZMK_MOD_MORPH(magic_shift_tap, bindings = <&shift_repeat>, <&caps_word>;
+              mods = <(MOD_LSFT)>;)
+ZMK_ADAPTIVE_KEY(
+    shift_repeat, bindings = <&sk LSHFT>;
+    repeat {
+      trigger-keys = <A B C D E F G H I J K L M N O P Q R S T U V W X Y Z>;
+      bindings = <&key_repeat>;
+      max-prior-idle-ms = <1200>;
+      strict-modifiers;
+    };)
+  // Smart-mouse, requires tri-state module.
+ZMK_TRI_STATE(
+    smart_mouse, bindings = <&tog MOUSE>, <&none>, <&tog MOUSE>;
+    ignored-key-positions =
+        <LM1 LM2 LM3 LM4 LB1 LB2 LB3 LB4 LH0 LH1 LH2 RM1 RM2 RM3 RM4 RB1 RB2 RB3 RB4 RH0 RH1 RH2>;
+    ignored-layers = <MOUSE NUM FUNC>;)
+//&caps_word { // Mods deactivate caps-word, requires PR #1451. [TODO: rebase]
+  ///delete-property/ ignore-modifiers;
+//};
+

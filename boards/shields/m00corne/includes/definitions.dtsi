@@ -1,0 +1,37 @@
+// Make sure this file is include before all other files
+/*
+ *		Use this file to add all the definitions that need to be sourced before all the headers
+ */
+
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+
+#define KEYS_L LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LM5 LB0 LB1 LB2 LB3 LB4 LB5
+#define KEYS_R RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 RM5 RB0 RB1 RB2 RB3 RB4 RB5
+#define KEYS_T LH2 LH1 LH0 RH0 RH1 RH2
+
+#define HM_TAPPING_TERM 300
+#define HM_TAPPING_TERM_FAST 200
+#define HM_PRIOR_IDLE 150
+
+#define COMBO_TERM_FAST 18
+#define COMBO_TERM_SLOW 30
+
+#define COMBO_IDLE_FAST 150
+#define COMBO_IDLE_SLOW 50
+#define COMBO_PRIOR_IDLE 100
+
+#define CANCEL	&kp K_CANCEL
+
+/* Global defaults */
+
+#define QUICK_TAP_MS 175
+
+#define BASE 0
+#define NAV 1
+#define NUM 2
+#define SYM 3
+#define MOUSE 4
+#define WM 5
+#define MEDIA 6
+#define FUNC 7
