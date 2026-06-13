@@ -1,0 +1,36 @@
+if SHIELD_M00CORNE_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "m00corne"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_M00CORNE_LEFT || SHIELD_M00CORNE_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_BACKLIGHT
+    default y
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+endif
+
+if ZMK_BACKLIGHT
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+endif # ZMK_BACKLIGHT
