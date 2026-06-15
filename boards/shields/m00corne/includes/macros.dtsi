@@ -1,0 +1,29 @@
+/*
+ * Use this file for your macros
+ */
+/ {
+    macros {
+        inverted_qmark_win: inverted_qmark_win {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings
+                = <&macro_press   &kp LALT>
+                , <&macro_tap     &kp KP_N1 &kp KP_N6 &kp KP_N8>
+                , <&macro_release &kp LALT>
+                ;
+        };
+        inverted_exmark_win: inverted_exmark_win {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings
+                = <&macro_press   &kp LALT>
+                , <&macro_tap     &kp KP_N1 &kp KP_N7 &kp KP_N3>
+                , <&macro_release &kp LALT>
+                ;
+        };
+    };
+};
