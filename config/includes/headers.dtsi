@@ -10,6 +10,8 @@
 #include <dt-bindings/zmk/keys.h> // ZMK keys
 #include <dt-bindings/zmk/bt.h> // ZMK bluetoothw
 #include <dt-bindings/zmk/outputs.h> // ZMK outputs toogle
+#include <dt-bindings/led/led.h> // ZMK LED
+// #include <dt-bindings/zmk/hid_indicators.h> // ZMK LED INDICATORS
 // Modules headers
 #include <locale/keys_pt_abnt2.h> // Joel locales for portuguese
 #include <behaviors/num_word.dtsi> // Urob autolayer
